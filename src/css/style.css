@@ -1,0 +1,42 @@
+.restaurant-grid{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    justify-content: center;
+    gap: 2rem;
+}
+
+.restaurant-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 5px;
+}
+
+.restaurant-card-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurant-card-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-transport-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant-img{
+    border-radius: 8px;
+    width: 100%;
+}
