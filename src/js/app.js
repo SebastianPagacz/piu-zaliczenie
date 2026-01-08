@@ -1,7 +1,8 @@
-import { DataFetcher } from "./api.js";
-import { searchRestaurants, filterRestaurantsByType } from "./restaurantSearch.js";
+import { dataFetcher } from "./api.js";
+import { filterRestaurants } from "./restaurantSearch.js";
 import { renderRestaurantsData, showErrorMessage, renderTypesSelect } from "./ui.js";
 import { debounce, getRestaurantTypes } from "./helpers.js";
+import { store } from "./store.js";
 
 
 const init = async () =>{
@@ -9,27 +10,26 @@ const init = async () =>{
     const restaurantSearchBar = document.getElementById("restaurant-search");
     const restaurantTypeSelect = document.getElementById("restaurant-type-select");
     
-    const fetcher = new DataFetcher();
     try{
-        const restaurantData = await fetcher.getAllRestaurants();
-
+        const restaurantData = await dataFetcher.getAllRestaurants();
+        
         renderRestaurantsData(restaurantData, restaurantsContainer);
         
+        store.subscribe((state) => {
+            const filteredData = filterRestaurants(restaurantData, state);
+            renderRestaurantsData(filteredData, restaurantsContainer);
+        })
+
         // restaurant type select element
         renderTypesSelect(getRestaurantTypes(restaurantData), restaurantTypeSelect);
-        
-        restaurantTypeSelect.addEventListener("change", () => {
-            renderRestaurantsData(filterRestaurantsByType(restaurantData, restaurantTypeSelect.value), restaurantsContainer);
-        });
 
-        const updateSearchResults = debounce(() => {
-            let filteredData = searchRestaurants(restaurantData, restaurantSearchBar.value);
-            renderRestaurantsData(filteredData, restaurantsContainer);
-        }, 500);
-        
-        restaurantSearchBar.addEventListener("input", () => {
-            updateSearchResults();
+        restaurantTypeSelect.addEventListener("change", () => {
+            store.setCategory(restaurantTypeSelect.value);
         });
+        
+        restaurantSearchBar.addEventListener("input", debounce((e) => {
+            store.setSearch(e.target.value);
+        }, 500));
     }
     catch(error){
         showErrorMessage(error.message, restaurantsContainer);

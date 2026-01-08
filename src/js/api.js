@@ -1,4 +1,4 @@
-export class DataFetcher{
+class DataFetcher{
     async getAllRestaurants(){
         const url = "https://corsproxy.io/?https://fakerestaurantapi.runasp.net/api/Restaurant";
         
@@ -11,3 +11,5 @@ export class DataFetcher{
         return result;
     }
 }
+
+export const dataFetcher = new DataFetcher();

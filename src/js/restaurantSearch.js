@@ -5,3 +5,9 @@ export function searchRestaurants(restaurantList, searchInput){
 export function filterRestaurantsByType(restaurantsList, type){
     return restaurantsList.filter((restaurant) => restaurant.type.includes(type));
 }
+
+export function filterRestaurants(restaurantList, state){
+    return restaurantList.filter((restaurant) =>
+            restaurant.restaurantName.toLowerCase().includes(state.searchFilter.trim()) && restaurant.type.includes(state.categoryFilter)
+        );
+}
