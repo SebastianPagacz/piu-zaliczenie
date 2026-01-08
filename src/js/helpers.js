@@ -8,3 +8,10 @@ export function debounce(callback, delay){
         }, delay);
     }
 }
+
+export function getRestaurantTypes(restaurantsData){
+    let result = new Set();
+    restaurantsData.map((restaurant) => result.add(restaurant.type));
+
+    return result;
+}

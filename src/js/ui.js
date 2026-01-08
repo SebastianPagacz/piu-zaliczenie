@@ -16,3 +16,12 @@ export function showErrorMessage(errorMsg, container){
 
     container.appendChild(errorNote);
 }
+
+export function renderTypesSelect(typesList, selectElem){
+    typesList.forEach(type => {
+        const option = document.createElement("option");
+        option.value = type;
+        option.innerText = type;
+        selectElem.appendChild(option);
+    });
+}

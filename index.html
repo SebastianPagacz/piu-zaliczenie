@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jedzeniomat</title>
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <header></header>
     <main>
         <div class="filter-container" id="filter-options">
             <input type="text" placeholder="search" class="search-bar" id="restaurant-search">
+            <select name="restaurant-type" id="restaurant-type-select">
+                <option value="" selected>category</option>
+            </select>
         </div>
         <div class="restaurant-grid" id="restaurant-list"></div>
     </main>
