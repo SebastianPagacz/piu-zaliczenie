@@ -1,158 +1,811 @@
 {
   "restaurants": [
-    { "id": 1, "restaurantName": "Bistro U Mariana", "category": "Polska", "rating": 5, "address": "ul. Polna 12", "parkingLot": true },
-    { "id": 2, "restaurantName": "Pizzeria Napoli", "category": "Włoska", "rating": 4, "address": "ul. Leśna 44", "parkingLot": false },
-    { "id": 3, "restaurantName": "Burgerownia Premium", "category": "Amerykańska", "rating": 3, "address": "ul. Długa 5", "parkingLot": true },
-    { "id": 4, "restaurantName": "Sushi Master", "category": "Azjatycka", "rating": 5, "address": "ul. Krótka 99", "parkingLot": false },
-    { "id": 5, "restaurantName": "Bar Mleczny", "category": "Polska", "rating": 4, "address": "ul. Warszawska 1", "parkingLot": true },
-    { "id": 6, "restaurantName": "Taco Mexicano", "category": "Meksykańska", "rating": 2, "address": "ul. Słoneczna 23", "parkingLot": true },
-    { "id": 7, "restaurantName": "Restauracja Rodzinna", "category": "Polska", "rating": 5, "address": "ul. Rynek 10", "parkingLot": false },
-    { "id": 8, "restaurantName": "Pizza Express", "category": "Włoska", "rating": 3, "address": "ul. Główna 77", "parkingLot": true },
-    { "id": 9, "restaurantName": "Kebab King", "category": "Turecka", "rating": 4, "address": "ul. Dworcowa 2", "parkingLot": false },
-    { "id": 10, "restaurantName": "Vegan Spot", "category": "Wegańska", "rating": 5, "address": "ul. Zielona 15", "parkingLot": true },
-    { "id": 11, "restaurantName": "Steak House", "category": "Amerykańska", "rating": 4, "address": "ul. Prosta 8", "parkingLot": true },
-    { "id": 12, "restaurantName": "Pierogarnia Babuni", "category": "Polska", "rating": 5, "address": "ul. Cicha 3", "parkingLot": false },
-    { "id": 13, "restaurantName": "Golden Dragon", "category": "Azjatycka", "rating": 3, "address": "ul. Wschodnia 4", "parkingLot": true },
-    { "id": 14, "restaurantName": "Pasta & Basta", "category": "Włoska", "rating": 4, "address": "ul. Południowa 12", "parkingLot": true },
-    { "id": 15, "restaurantName": "Burrito Bros", "category": "Meksykańska", "rating": 5, "address": "ul. Zachodnia 9", "parkingLot": false },
-    { "id": 16, "restaurantName": "Schabowy Raz", "category": "Polska", "rating": 4, "address": "ul. Wiejska 20", "parkingLot": true },
-    { "id": 17, "restaurantName": "Ramen Shop", "category": "Azjatycka", "rating": 5, "address": "ul. Nowa 33", "parkingLot": false },
-    { "id": 18, "restaurantName": "Fish & Chips", "category": "Angielska", "rating": 3, "address": "ul. Portowa 1", "parkingLot": true },
-    { "id": 19, "restaurantName": "Curry House", "category": "Indyjska", "rating": 4, "address": "ul. Korzenna 5", "parkingLot": false },
-    { "id": 20, "restaurantName": "Greek Tawerna", "category": "Grecka", "rating": 5, "address": "ul. Olimpijska 2", "parkingLot": true },
-    { "id": 21, "restaurantName": "French Bistro", "category": "Francuska", "rating": 4, "address": "ul. Paryska 7", "parkingLot": true },
-    { "id": 22, "restaurantName": "Tapas Bar", "category": "Hiszpańska", "rating": 3, "address": "ul. Madrycka 6", "parkingLot": false },
-    { "id": 23, "restaurantName": "Thai Wok", "category": "Azjatycka", "rating": 5, "address": "ul. Azjatycka 8", "parkingLot": true },
-    { "id": 24, "restaurantName": "Burger King Kong", "category": "Amerykańska", "rating": 4, "address": "ul. Wielka 100", "parkingLot": true },
-    { "id": 25, "restaurantName": "Naleśnikarnia", "category": "Polska", "rating": 5, "address": "ul. Słodka 4", "parkingLot": false },
-    { "id": 26, "restaurantName": "Kawiarnia Relaks", "category": "Kawiarnia", "rating": 4, "address": "ul. Kawowa 1", "parkingLot": true },
-    { "id": 27, "restaurantName": "Lodziarnia Polarna", "category": "Desery", "rating": 5, "address": "ul. Zimna 2", "parkingLot": false },
-    { "id": 28, "restaurantName": "Szybki Kęs", "category": "Fast Food", "rating": 2, "address": "ul. Przejazdowa 5", "parkingLot": true },
-    { "id": 29, "restaurantName": "Zdrowa Micha", "category": "Fit", "rating": 5, "address": "ul. Sportowa 9", "parkingLot": true },
-    { "id": 30, "restaurantName": "Gruziński Smak", "category": "Gruzińska", "rating": 4, "address": "ul. Górska 11", "parkingLot": false },
-    { "id": 31, "restaurantName": "Restauracja Zamkowa", "category": "Polska", "rating": 5, "address": "ul. Zamkowa 1", "parkingLot": true },
-    { "id": 32, "restaurantName": "Pizza Hut", "category": "Włoska", "rating": 3, "address": "ul. Handlowa 50", "parkingLot": true },
-    { "id": 33, "restaurantName": "KFC", "category": "Amerykańska", "rating": 4, "address": "ul. Kurczakowa 3", "parkingLot": true },
-    { "id": 34, "restaurantName": "McDonalds", "category": "Amerykańska", "rating": 3, "address": "ul. Złota 1", "parkingLot": true },
-    { "id": 35, "restaurantName": "Subway", "category": "Fast Food", "rating": 4, "address": "ul. Kanapkowa 2", "parkingLot": false },
-    { "id": 36, "restaurantName": "Döner Kebab", "category": "Turecka", "rating": 4, "address": "ul. Turecka 4", "parkingLot": true },
-    { "id": 37, "restaurantName": "Bar u Zdzicha", "category": "Polska", "rating": 2, "address": "ul. Boczna 6", "parkingLot": false },
-    { "id": 38, "restaurantName": "Sushi Roll", "category": "Azjatycka", "rating": 5, "address": "ul. Rybna 8", "parkingLot": true },
-    { "id": 39, "restaurantName": "Wino i Ser", "category": "Włoska", "rating": 5, "address": "ul. Winna 12", "parkingLot": true },
-    { "id": 40, "restaurantName": "Browar Miejski", "category": "Pub", "rating": 4, "address": "ul. Piwna 9", "parkingLot": false },
-    { "id": 41, "restaurantName": "Cukiernia Słodka", "category": "Desery", "rating": 5, "address": "ul. Ciastkowa 3", "parkingLot": true },
-    { "id": 42, "restaurantName": "Piekarnia Chlebek", "category": "Piekarnia", "rating": 4, "address": "ul. Mączna 5", "parkingLot": false },
-    { "id": 43, "restaurantName": "Restauracja Widok", "category": "Międzynarodowa", "rating": 5, "address": "ul. Tarasowa 10", "parkingLot": true },
-    { "id": 44, "restaurantName": "Klub Nocny", "category": "Klub", "rating": 3, "address": "ul. Imprezowa 1", "parkingLot": true },
-    { "id": 45, "restaurantName": "Bar Sałatkowy", "category": "Wegetariańska", "rating": 4, "address": "ul. Warzywna 2", "parkingLot": false },
-    { "id": 46, "restaurantName": "Pierożki Dim Sum", "category": "Azjatycka", "rating": 5, "address": "ul. Chińska 4", "parkingLot": true },
-    { "id": 47, "restaurantName": "Tex-Mex 47", "category": "Meksykańska", "rating": 4, "address": "ul. Pikantna 7", "parkingLot": true },
-    { "id": 48, "restaurantName": "Restauracja Rybacka", "category": "Owoce Morza", "rating": 5, "address": "ul. Nadmorska 1", "parkingLot": true },
-    { "id": 49, "restaurantName": "Grill Bar", "category": "Grill", "rating": 4, "address": "ul. Węglowa 3", "parkingLot": false },
-    { "id": 50, "restaurantName": "Zajazd Leśny", "category": "Polska", "rating": 3, "address": "ul. Grzybowa 5", "parkingLot": true }
-  ],
-  "menu-items": [
-    { "id": 1, "restaurantId": 1, "name": "Pierogi Ruskie" }, { "id": 2, "restaurantId": 1, "name": "Żurek" }, { "id": 3, "restaurantId": 1, "name": "Kotlet Schabowy" },
-    { "id": 4, "restaurantId": 2, "name": "Pizza Margherita" }, { "id": 5, "restaurantId": 2, "name": "Pizza Pepperoni" }, { "id": 6, "restaurantId": 2, "name": "Tiramisu" },
-    { "id": 7, "restaurantId": 3, "name": "Cheeseburger" }, { "id": 8, "restaurantId": 3, "name": "Frytki" }, { "id": 9, "restaurantId": 3, "name": "Cola" },
-    { "id": 10, "restaurantId": 4, "name": "Zestaw Sushi" }, { "id": 11, "restaurantId": 4, "name": "Zupa Miso" }, { "id": 12, "restaurantId": 4, "name": "Edamame" },
-    { "id": 13, "restaurantId": 5, "name": "Naleśniki z serem" }, { "id": 14, "restaurantId": 5, "name": "Pomidorowa" }, { "id": 15, "restaurantId": 5, "name": "Kompot" },
-    { "id": 16, "restaurantId": 6, "name": "Tacos" }, { "id": 17, "restaurantId": 6, "name": "Burrito" }, { "id": 18, "restaurantId": 6, "name": "Nachos" },
-    { "id": 19, "restaurantId": 7, "name": "Kaczka pieczona" }, { "id": 20, "restaurantId": 7, "name": "Rosół" }, { "id": 21, "restaurantId": 7, "name": "Szarlotka" },
-    { "id": 22, "restaurantId": 8, "name": "Spaghetti Carbonara" }, { "id": 23, "restaurantId": 8, "name": "Lasagne" }, { "id": 24, "restaurantId": 8, "name": "Focaccia" },
-    { "id": 25, "restaurantId": 9, "name": "Kebab w bułce" }, { "id": 26, "restaurantId": 9, "name": "Kebab na talerzu" }, { "id": 27, "restaurantId": 9, "name": "Ayran" },
-    { "id": 28, "restaurantId": 10, "name": "Burger z fasoli" }, { "id": 29, "restaurantId": 10, "name": "Hummus" }, { "id": 30, "restaurantId": 10, "name": "Sałatka Tabbouleh" },
-    { "id": 31, "restaurantId": 11, "name": "Stek Wołowy" }, { "id": 32, "restaurantId": 11, "name": "Ziemniaki Pieczone" }, { "id": 33, "restaurantId": 11, "name": "Szpinak" },
-    { "id": 34, "restaurantId": 12, "name": "Pierogi z mięsem" }, { "id": 35, "restaurantId": 12, "name": "Pierogi z owocami" }, { "id": 36, "restaurantId": 12, "name": "Barszcz" },
-    { "id": 37, "restaurantId": 13, "name": "Kurczak słodko-kwaśny" }, { "id": 38, "restaurantId": 13, "name": "Ryż smażony" }, { "id": 39, "restaurantId": 13, "name": "Sajgonki" },
-    { "id": 40, "restaurantId": 14, "name": "Ravioli" }, { "id": 41, "restaurantId": 14, "name": "Panna Cotta" }, { "id": 42, "restaurantId": 14, "name": "Wino domowe" },
-    { "id": 43, "restaurantId": 15, "name": "Quesadilla" }, { "id": 44, "restaurantId": 15, "name": "Chili con Carne" }, { "id": 45, "restaurantId": 15, "name": "Churros" },
-    { "id": 46, "restaurantId": 16, "name": "Schabowy XXL" }, { "id": 47, "restaurantId": 16, "name": "Ziemniaki z koperkiem" }, { "id": 48, "restaurantId": 16, "name": "Mizeria" },
-    { "id": 49, "restaurantId": 17, "name": "Ramen Shoyu" }, { "id": 50, "restaurantId": 17, "name": "Ramen Miso" }, { "id": 51, "restaurantId": 17, "name": "Kimchi" },
-    { "id": 52, "restaurantId": 18, "name": "Dorsz w panierce" }, { "id": 53, "restaurantId": 18, "name": "Frytki grube" }, { "id": 54, "restaurantId": 18, "name": "Sos tatarski" },
-    { "id": 55, "restaurantId": 19, "name": "Butter Chicken" }, { "id": 56, "restaurantId": 19, "name": "Chlebek Naan" }, { "id": 57, "restaurantId": 19, "name": "Mango Lassi" },
-    { "id": 58, "restaurantId": 20, "name": "Gyros" }, { "id": 59, "restaurantId": 20, "name": "Sałatka Grecka" }, { "id": 60, "restaurantId": 20, "name": "Tzatziki" },
-    { "id": 61, "restaurantId": 21, "name": "Zupa Cebulowa" }, { "id": 62, "restaurantId": 21, "name": "Ślimaki" }, { "id": 63, "restaurantId": 21, "name": "Creme Brulee" },
-    { "id": 64, "restaurantId": 22, "name": "Chorizo" }, { "id": 65, "restaurantId": 22, "name": "Oliwki" }, { "id": 66, "restaurantId": 22, "name": "Patatas Bravas" },
-    { "id": 67, "restaurantId": 23, "name": "Pad Thai" }, { "id": 68, "restaurantId": 23, "name": "Zupa Tom Yum" }, { "id": 69, "restaurantId": 23, "name": "Satay z kurczaka" },
-    { "id": 70, "restaurantId": 24, "name": "Bacon Burger" }, { "id": 71, "restaurantId": 24, "name": "Krążki Cebulowe" }, { "id": 72, "restaurantId": 24, "name": "Milkshake" },
-    { "id": 73, "restaurantId": 25, "name": "Naleśnik ze szpinakiem" }, { "id": 74, "restaurantId": 25, "name": "Naleśnik z nutellą" }, { "id": 75, "restaurantId": 25, "name": "Kawa" },
-    { "id": 76, "restaurantId": 26, "name": "Espresso" }, { "id": 77, "restaurantId": 26, "name": "Latte" }, { "id": 78, "restaurantId": 26, "name": "Sernik" },
-    { "id": 79, "restaurantId": 27, "name": "Lody Waniliowe" }, { "id": 80, "restaurantId": 27, "name": "Lody Czekoladowe" }, { "id": 81, "restaurantId": 27, "name": "Gofry" },
-    { "id": 82, "restaurantId": 28, "name": "Zapiekanka" }, { "id": 83, "restaurantId": 28, "name": "Hot-Dog" }, { "id": 84, "restaurantId": 28, "name": "Napój gazowany" },
-    { "id": 85, "restaurantId": 29, "name": "Sałatka Cezar" }, { "id": 86, "restaurantId": 29, "name": "Smoothie" }, { "id": 87, "restaurantId": 29, "name": "Owocowa Misa" },
-    { "id": 88, "restaurantId": 30, "name": "Chinkali" }, { "id": 89, "restaurantId": 30, "name": "Chaczapuri" }, { "id": 90, "restaurantId": 30, "name": "Wino Gruzińskie" },
-    { "id": 91, "restaurantId": 31, "name": "Dziczyzna" }, { "id": 92, "restaurantId": 31, "name": "Karp" }, { "id": 93, "restaurantId": 31, "name": "Sernik Krakowski" },
-    { "id": 94, "restaurantId": 32, "name": "Pizza Hawajska" }, { "id": 95, "restaurantId": 32, "name": "Pieczywo Czosnkowe" }, { "id": 96, "restaurantId": 32, "name": "Sałatka" },
-    { "id": 97, "restaurantId": 33, "name": "Kubełek Skrzydełek" }, { "id": 98, "restaurantId": 33, "name": "Kanapka z kurczakiem" }, { "id": 99, "restaurantId": 33, "name": "Coleslaw" },
-    { "id": 100, "restaurantId": 34, "name": "Big Mac" }, { "id": 101, "restaurantId": 34, "name": "McRoyal" }, { "id": 102, "restaurantId": 34, "name": "Lody McFlurry" },
-    { "id": 103, "restaurantId": 35, "name": "Kanapka 15cm" }, { "id": 104, "restaurantId": 35, "name": "Kanapka 30cm" }, { "id": 105, "restaurantId": 35, "name": "Ciastko" },
-    { "id": 106, "restaurantId": 36, "name": "Kebab Box" }, { "id": 107, "restaurantId": 36, "name": "Falafel" }, { "id": 108, "restaurantId": 36, "name": "Frytki" },
-    { "id": 109, "restaurantId": 37, "name": "Flaki" }, { "id": 110, "restaurantId": 37, "name": "Wątróbka" }, { "id": 111, "restaurantId": 37, "name": "Piwo" },
-    { "id": 112, "restaurantId": 38, "name": "Futomaki" }, { "id": 113, "restaurantId": 38, "name": "Nigiri" }, { "id": 114, "restaurantId": 38, "name": "Sashimi" },
-    { "id": 115, "restaurantId": 39, "name": "Deska Serów" }, { "id": 116, "restaurantId": 39, "name": "Wino Czerwone" }, { "id": 117, "restaurantId": 39, "name": "Wino Białe" },
-    { "id": 118, "restaurantId": 40, "name": "Piwo Kraftowe" }, { "id": 119, "restaurantId": 40, "name": "Orzeszki" }, { "id": 120, "restaurantId": 40, "name": "Paluszki" },
-    { "id": 121, "restaurantId": 41, "name": "Pączek" }, { "id": 122, "restaurantId": 41, "name": "Drożdżówka" }, { "id": 123, "restaurantId": 41, "name": "Tort" },
-    { "id": 124, "restaurantId": 42, "name": "Chleb wiejski" }, { "id": 125, "restaurantId": 42, "name": "Bułka" }, { "id": 126, "restaurantId": 42, "name": "Rogal" },
-    { "id": 127, "restaurantId": 43, "name": "Stek z tuńczyka" }, { "id": 128, "restaurantId": 43, "name": "Sałatka z awokado" }, { "id": 129, "restaurantId": 43, "name": "Drink" },
-    { "id": 130, "restaurantId": 44, "name": "Wódka" }, { "id": 131, "restaurantId": 44, "name": "Whisky" }, { "id": 132, "restaurantId": 44, "name": "Chipsy" },
-    { "id": 133, "restaurantId": 45, "name": "Sałatka Grecka" }, { "id": 134, "restaurantId": 45, "name": "Sałatka z Kurczakiem" }, { "id": 135, "restaurantId": 45, "name": "Sok Świeży" },
-    { "id": 136, "restaurantId": 46, "name": "Pierożki na parze" }, { "id": 137, "restaurantId": 46, "name": "Bao" }, { "id": 138, "restaurantId": 46, "name": "Herbata" },
-    { "id": 139, "restaurantId": 47, "name": "Fajitas" }, { "id": 140, "restaurantId": 47, "name": "Enchiladas" }, { "id": 141, "restaurantId": 47, "name": "Salsa" },
-    { "id": 142, "restaurantId": 48, "name": "Krewetki" }, { "id": 143, "restaurantId": 48, "name": "Małże" }, { "id": 144, "restaurantId": 48, "name": "Kalmary" },
-    { "id": 145, "restaurantId": 49, "name": "Karkówka" }, { "id": 146, "restaurantId": 49, "name": "Kiełbasa" }, { "id": 147, "restaurantId": 49, "name": "Kaszanka" },
-    { "id": 148, "restaurantId": 50, "name": "Żurek w chlebie" }, { "id": 149, "restaurantId": 50, "name": "Dziki" }, { "id": 150, "restaurantId": 50, "name": "Grzyby" }
-  ],
-  "reviews": [
-    { "id": 1, "restaurantId": 1, "title": "Pycha", "content": "Super jedzenie" },
-    { "id": 2, "restaurantId": 2, "title": "OK", "content": "Może być" },
-    { "id": 3, "restaurantId": 3, "title": "Słabo", "content": "Nie polecam" }, 
-    { "id": 4, "restaurantId": 4, "title": "Rewelacja", "content": "Wspaniałe sushi" },
-    { "id": 5, "restaurantId": 5, "title": "Tanio", "content": "Dobre ceny" }, 
-    { "id": 6, "restaurantId": 6, "title": "Ostre", "content": "Pikantne dania" },
-    { "id": 7, "restaurantId": 7, "title": "Domowo", "content": "Jak u mamy" }, 
-    { "id": 8, "restaurantId": 8, "title": "Szybko", "content": "Szybka dostawa" },
-    { "id": 9, "restaurantId": 9, "title": "Dużo", "content": "Duże porcje" }, 
-    { "id": 10, "restaurantId": 10, "title": "Zdrowo", "content": "Świeże składniki" },
-    { "id": 11, "restaurantId": 11, "title": "Mięso", "content": "Dobry stek" }, 
-    { "id": 12, "restaurantId": 12, "title": "Tradycja", "content": "Prawdziwe pierogi" },
-    { "id": 13, "restaurantId": 13, "title": "Egzotyka", "content": "Ciekawe smaki" }, 
-    { "id": 14, "restaurantId": 14, "title": "Włochy", "content": "Klimat Italii" },
-    { "id": 15, "restaurantId": 15, "title": "Meksyk", "content": "Fiesta smaków" }, 
-    { "id": 16, "restaurantId": 16, "title": "Klasyk", "content": "Schabowy ok" },
-    { "id": 17, "restaurantId": 17, "title": "Zupa", "content": "Świetny wywar" }, 
-    { "id": 18, "restaurantId": 18, "title": "Ryba", "content": "Świeża ryba" },
-    { "id": 19, "restaurantId": 19, "title": "Przyprawy", "content": "Aromatyczne" }, 
-    { "id": 20, "restaurantId": 20, "title": "Grecja", "content": "Wakacyjne wspomnienia" },
-    { "id": 21, "restaurantId": 21, "title": "Elegancja", "content": "Wykwintnie" }, 
-    { "id": 22, "restaurantId": 22, "title": "Przekąski", "content": "Dobre do wina" },
-    { "id": 23, "restaurantId": 23, "title": "Wok", "content": "Smażone na miejscu" }, 
-    { "id": 24, "restaurantId": 24, "title": "USA", "content": "Prawdziwy burger" },
-    { "id": 25, "restaurantId": 25, "title": "Słodko", "content": "Dobre desery" }, 
-    { "id": 26, "restaurantId": 26, "title": "Kawa", "content": "Mocna kawa" },
-    { "id": 27, "restaurantId": 27, "title": "Lody", "content": "Zimne i pyszne" }, 
-    { "id": 28, "restaurantId": 28, "title": "Bieg", "content": "Na szybko" },
-    { "id": 29, "restaurantId": 29, "title": "Fit", "content": "Lekkie jedzenie" }, 
-    { "id": 30, "restaurantId": 30, "title": "Wschód", "content": "Gruziński klimat" },
-    { "id": 31, "restaurantId": 31, "title": "Zamek", "content": "Królewska uczta" }, 
-    { "id": 32, "restaurantId": 32, "title": "Sieciówka", "content": "Standard" },
-    { "id": 33, "restaurantId": 33, "title": "Kurczak", "content": "Chrupiący" }, 
-    { "id": 34, "restaurantId": 34, "title": "Mak", "content": "Zawsze to samo" },
-    { "id": 35, "restaurantId": 35, "title": "Kanapka", "content": "Świeże warzywa" }, 
-    { "id": 36, "restaurantId": 36, "title": "Kebab", "content": "Tłusto i smacznie" },
-    { "id": 37, "restaurantId": 37, "title": "Bar", "content": "Tanio i dużo" }, 
-    { "id": 38, "restaurantId": 38, "title": "Rolki", "content": "Dobre sushi" },
-    { "id": 39, "restaurantId": 39, "title": "Wino", "content": "Duży wybór" }, 
-    { "id": 40, "restaurantId": 40, "title": "Piwo", "content": "Zimne piwo" },
-    { "id": 41, "restaurantId": 41, "title": "Ciacho", "content": "Słodkości" }, 
-    { "id": 42, "restaurantId": 42, "title": "Chleb", "content": "Pachnie chlebem" },
-    { "id": 43, "restaurantId": 43, "title": "Widok", "content": "Piękna panorama" }, 
-    { "id": 44, "restaurantId": 44, "title": "Impreza", "content": "Głośna muzyka" },
-    { "id": 45, "restaurantId": 45, "title": "Vege", "content": "Bez mięsa" }, 
-    { "id": 46, "restaurantId": 46, "title": "Para", "content": "Delikatne ciasto" },
-    { "id": 47, "restaurantId": 47, "title": "Ogień", "content": "Bardzo ostre" }, 
-    { "id": 48, "restaurantId": 48, "title": "Morze", "content": "Smak wakacji" },
-    { "id": 49, "restaurantId": 49, "title": "Dym", "content": "Wędzone" }, 
-    { "id": 50, "restaurantId": 50, "title": "Las", "content": "Klimat leśny" }
+    {
+      "id": 1,
+      "restaurantName": "Pizza Italiana",
+      "category": "Italian",
+      "rating": 4.5,
+      "address": "Kolna 18",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Margherita", "price": 32, "description": "Sos pomidorowy, mozzarella, bazylia" },
+        { "name": "Diavola", "price": 38, "description": "Salami piccante, chili, mozzarella" },
+        { "name": "Carbonara", "price": 42, "description": "Spaghetti, guanciale, jajko, pecorino" }
+      ],
+      "reviews": [
+        { "user": "Jan Kowalski", "rating": 5, "comment": "Najlepsza pizza w mieście!" },
+        { "user": "Anna Nowak", "rating": 4, "comment": "Smaczne, ale długo czekaliśmy." }
+      ]
+    },
+    {
+      "id": 2,
+      "restaurantName": "Pierogarnia u Zosi",
+      "category": "Polish",
+      "rating": 4.8,
+      "address": "Rynek Główny 5",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Pierogi Ruskie", "price": 28, "description": "Twaróg, ziemniaki, cebulka" },
+        { "name": "Pierogi z Mięsem", "price": 30, "description": "Mięso wieprzowo-wołowe, okrasa" },
+        { "name": "Barszcz Czerwony", "price": 15, "description": "Tradycyjny barszcz na zakwasie" }
+      ],
+      "reviews": [
+        { "user": "Marek Z.", "rating": 5, "comment": "Jak u mamy, polecam!" }
+      ]
+    },
+    {
+      "id": 3,
+      "restaurantName": "Tokyo Sushi",
+      "category": "Japanese",
+      "rating": 4.6,
+      "address": "Długa 12",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Zestaw Nigiri", "price": 55, "description": "6 sztuk nigiri z łososiem i tuńczykiem" },
+        { "name": "California Roll", "price": 35, "description": "Krab, awokado, ogórek, sezam" },
+        { "name": "Miso Soup", "price": 18, "description": "Zupa z pasty sojowej z tofu i wakame" }
+      ],
+      "reviews": [
+        { "user": "Kasia M.", "rating": 4, "comment": "Świeża ryba, ale drogo." },
+        { "user": "Tomek", "rating": 5, "comment": "Najlepsze sushi w okolicy." }
+      ]
+    },
+    {
+      "id": 4,
+      "restaurantName": "Burger House",
+      "category": "American",
+      "rating": 4.3,
+      "address": "Lipowa 44",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Classic Burger", "price": 34, "description": "Wołowina, sałata, pomidor, ogórek, sos" },
+        { "name": "Cheeseburger", "price": 36, "description": "Wołowina, podwójny cheddar, cebula" },
+        { "name": "Frytki Belgijskie", "price": 14, "description": "Grubo krojone frytki z majonezem" }
+      ],
+      "reviews": [
+        { "user": "Bartek", "rating": 4, "comment": "Solidny burger, bułka mogłaby być lepsza." }
+      ]
+    },
+    {
+      "id": 5,
+      "restaurantName": "Tajski Wok",
+      "category": "Thai",
+      "rating": 4.7,
+      "address": "Szewska 2",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Pad Thai", "price": 42, "description": "Makaron ryżowy, krewetki, orzeszki, tamaryndowiec" },
+        { "name": "Green Curry", "price": 39, "description": "Curry zielone z kurczakiem i mlekiem kokosowym" },
+        { "name": "Tom Yum", "price": 25, "description": "Ostra zupa z krewetkami i trawą cytrynową" }
+      ],
+      "reviews": [
+        { "user": "Zuza", "rating": 5, "comment": "Autentyczne smaki Tajlandii!" }
+      ]
+    },
+    {
+      "id": 6,
+      "restaurantName": "El Mariachi",
+      "category": "Mexican",
+      "rating": 4.4,
+      "address": "Ogrodowa 8",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Tacos al Pastor", "price": 32, "description": "3 sztuki, wieprzowina, ananas, kolendra" },
+        { "name": "Quesadilla", "price": 29, "description": "Tortilla z serem i kurczakiem" },
+        { "name": "Nachos Grande", "price": 25, "description": "Nachosy zapiekane z serem i jalapeño" }
+      ],
+      "reviews": [
+        { "user": "Patryk", "rating": 4, "comment": "Dobre, ale mało ostre." }
+      ]
+    },
+    {
+      "id": 7,
+      "restaurantName": "Green Vege",
+      "category": "Vegan",
+      "rating": 4.9,
+      "address": "Krupnicza 10",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Hummus Plate", "price": 26, "description": "Hummus klasyczny, warzywa, pita" },
+        { "name": "Beyond Burger", "price": 45, "description": "Roślinny burger, wegański ser, pikle" },
+        { "name": "Falafel Wrap", "price": 24, "description": "Falafel, świeże warzywa, sos tahini" }
+      ],
+      "reviews": [
+        { "user": "Ewa", "rating": 5, "comment": "Nawet mąż mięsożerca był zachwycony." }
+      ]
+    },
+    {
+      "id": 8,
+      "restaurantName": "Bombay Spice",
+      "category": "Indian",
+      "rating": 4.5,
+      "address": "Starowiślna 15",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Butter Chicken", "price": 38, "description": "Kurczak w sosie pomidorowo-maślanym" },
+        { "name": "Garlic Naan", "price": 12, "description": "Chlebek indyjski z czosnkiem" },
+        { "name": "Mango Lassi", "price": 16, "description": "Napój jogurtowy z mango" }
+      ],
+      "reviews": [
+        { "user": "Rafał", "rating": 5, "comment": "Prawdziwe indyjskie jedzenie." },
+        { "user": "Ola", "rating": 4, "comment": "Trochę za słone." }
+      ]
+    },
+    {
+      "id": 9,
+      "restaurantName": "Le Croissant",
+      "category": "French",
+      "rating": 4.6,
+      "address": "Francuska 3",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Zupa Cebulowa", "price": 22, "description": "Zupa z grzanką i serem gruyère" },
+        { "name": "Quiche Lorraine", "price": 28, "description": "Tarta z boczkiem i śmietaną" },
+        { "name": "Crème Brûlée", "price": 20, "description": "Deser z palonym cukrem" }
+      ],
+      "reviews": [
+        { "user": "Monika", "rating": 5, "comment": "Klimat jak w Paryżu." }
+      ]
+    },
+    {
+      "id": 10,
+      "restaurantName": "Schabowy Gigant",
+      "category": "Polish",
+      "rating": 4.2,
+      "address": "Polna 50",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Kotlet Schabowy XXL", "price": 35, "description": "Wielki schabowy z ziemniakami i kapustą" },
+        { "name": "Rosół", "price": 14, "description": "Domowy rosół z makaronem" },
+        { "name": "Kompot", "price": 6, "description": "Kompot owocowy sezonowy" }
+      ],
+      "reviews": [
+        { "user": "Wiesław", "rating": 4, "comment": "Porcje ogromne, nie do przejedzenia." }
+      ]
+    },
+    {
+      "id": 11,
+      "restaurantName": "Pasta Fresca",
+      "category": "Italian",
+      "rating": 4.7,
+      "address": "Włoska 7",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Tagliatelle Bolognese", "price": 36, "description": "Domowy makaron z sosem mięsnym" },
+        { "name": "Ravioli ze Szpinakiem", "price": 34, "description": "Pierożki z ricottą i szpinakiem" },
+        { "name": "Tiramisu", "price": 22, "description": "Klasyczny włoski deser" }
+      ],
+      "reviews": [
+        { "user": "Karolina", "rating": 5, "comment": "Makaron robiony na miejscu, rewelacja." }
+      ]
+    },
+    {
+      "id": 12,
+      "restaurantName": "Kebab King",
+      "category": "Fast Food",
+      "rating": 3.9,
+      "address": "Dworcowa 1",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Kebab w bułce", "price": 20, "description": "Baranina, surówki, sos mieszany" },
+        { "name": "Kebab Rollo", "price": 22, "description": "Duże rollo z kurczakiem" },
+        { "name": "Frytki", "price": 10, "description": "Porcja frytek" }
+      ],
+      "reviews": [
+        { "user": "Seba", "rating": 4, "comment": "Dobre na szybko." },
+        { "user": "Kamil", "rating": 3, "comment": "Mało mięsa." }
+      ]
+    },
+    {
+      "id": 13,
+      "restaurantName": "Słodki Kącik",
+      "category": "Cafe",
+      "rating": 4.8,
+      "address": "Miodowa 9",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Sernik Wiedeński", "price": 18, "description": "Puszysty sernik z czekoladą" },
+        { "name": "Cappuccino", "price": 14, "description": "Kawa ze spienionym mlekiem" },
+        { "name": "Szarlotka na ciepło", "price": 19, "description": "Z lodami i bitą śmietaną" }
+      ],
+      "reviews": [
+        { "user": "Babcia Jadzia", "rating": 5, "comment": "Najlepsze ciasta w mieście." }
+      ]
+    },
+    {
+      "id": 14,
+      "restaurantName": "Steak House",
+      "category": "American",
+      "rating": 4.6,
+      "address": "Prosta 100",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Ribeye Steak", "price": 95, "description": "Antrykot wołowy sezonowany 30 dni" },
+        { "name": "New York Strip", "price": 85, "description": "Rostbef wołowy z grilla" },
+        { "name": "Coleslaw", "price": 12, "description": "Surówka z białej kapusty" }
+      ],
+      "reviews": [
+        { "user": "Mirek", "rating": 5, "comment": "Mięso idealnie wysmażone." }
+      ]
+    },
+    {
+      "id": 15,
+      "restaurantName": "Greek Taverna",
+      "category": "Greek",
+      "rating": 4.5,
+      "address": "Olimpijska 4",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Sałatka Grecka", "price": 28, "description": "Feta, oliwki, pomidor, ogórek, oregano" },
+        { "name": "Souvlaki", "price": 36, "description": "Szaszłyki z kurczaka z pitą" },
+        { "name": "Musaka", "price": 40, "description": "Zapiekanka z bakłażanem i mięsem mielonym" }
+      ],
+      "reviews": [
+        { "user": "Dorota", "rating": 4, "comment": "Bardzo smaczne, ale głośno." }
+      ]
+    },
+    {
+      "id": 16,
+      "restaurantName": "Smaki Gruzji",
+      "category": "Georgian",
+      "rating": 4.7,
+      "address": "Kaukaska 2",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Chinkali", "price": 30, "description": "5 sztuk pierogów z rosołem w środku" },
+        { "name": "Chaczapuri Adżarskie", "price": 34, "description": "Placek z serem i jajkiem" },
+        { "name": "Bakłażan z orzechami", "price": 22, "description": "Roladki z pastą orzechową" }
+      ],
+      "reviews": [
+        { "user": "Grzegorz", "rating": 5, "comment": "Chinkali mistrzostwo!" }
+      ]
+    },
+    {
+      "id": 17,
+      "restaurantName": "Rybka u Władka",
+      "category": "Seafood",
+      "rating": 4.3,
+      "address": "Portowa 1",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Dorsz Smażony", "price": 42, "description": "Filet z dorsza z frytkami i surówką" },
+        { "name": "Zupa Rybna", "price": 20, "description": "Pikantna zupa z kawałkami ryb" },
+        { "name": "Tatar z Łososia", "price": 38, "description": "Siekany łosoś z dodatkami" }
+      ],
+      "reviews": [
+        { "user": "Andrzej", "rating": 4, "comment": "Ryba świeża, ceny ok." }
+      ]
+    },
+    {
+      "id": 18,
+      "restaurantName": "Pancake World",
+      "category": "Breakfast",
+      "rating": 4.5,
+      "address": "Poranna 8",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Pankejki z Syropem", "price": 26, "description": "Amerykańskie naleśniki z syropem klonowym" },
+        { "name": "Jajecznica na maśle", "price": 18, "description": "Z 3 jaj z pieczywem" },
+        { "name": "Kawa Latte", "price": 15, "description": "Duża kawa mleczna" }
+      ],
+      "reviews": [
+        { "user": "Julia", "rating": 5, "comment": "Idealne miejsce na śniadanie." }
+      ]
+    },
+    {
+      "id": 19,
+      "restaurantName": "Viet Nam Bar",
+      "category": "Vietnamese",
+      "rating": 4.2,
+      "address": "Azjatycka 5",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Pho Bo", "price": 28, "description": "Wietnamski rosół z wołowiną" },
+        { "name": "Sajgonki", "price": 16, "description": "3 sztuki z mięsem i warzywami" },
+        { "name": "Kurczak 5 smaków", "price": 32, "description": "Kurczak w aromatycznym sosie z ryżem" }
+      ],
+      "reviews": [
+        { "user": "Marcin", "rating": 4, "comment": "Dobre Pho, duża porcja." }
+      ]
+    },
+    {
+      "id": 20,
+      "restaurantName": "Tapas Barcelona",
+      "category": "Spanish",
+      "rating": 4.6,
+      "address": "Słoneczna 22",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Patatas Bravas", "price": 22, "description": "Ziemniaczki w ostrym sosie" },
+        { "name": "Gambas al Pil Pil", "price": 38, "description": "Krewetki w czosnku i oliwie" },
+        { "name": "Chorizo w winie", "price": 28, "description": "Kiełbaski duszone w czerwonym winie" }
+      ],
+      "reviews": [
+        { "user": "Iza", "rating": 5, "comment": "Super przekąski do wina." }
+      ]
+    },
+    {
+      "id": 21,
+      "restaurantName": "Bistro Pod Gołębiem",
+      "category": "Polish",
+      "rating": 3.8,
+      "address": "Krakowska 90",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Żurek w chlebie", "price": 24, "description": "Tradycyjny żurek z jajkiem i kiełbasą" },
+        { "name": "Bigos", "price": 22, "description": "Kapusta kiszona z różnymi mięsami" },
+        { "name": "Placki Ziemniaczane", "price": 20, "description": "Ze śmietaną i cukrem" }
+      ],
+      "reviews": [
+        { "user": "Darek", "rating": 3, "comment": "Jedzenie ok, ale obsługa niemiła." },
+        { "user": "Basia", "rating": 4, "comment": "Dobry żurek." }
+      ]
+    },
+    {
+      "id": 22,
+      "restaurantName": "Ramen Shop",
+      "category": "Japanese",
+      "rating": 4.8,
+      "address": "Nowy Świat 3",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Shoyu Ramen", "price": 38, "description": "Bulion drobiowy, sos sojowy, chashu" },
+        { "name": "Tantanmen", "price": 40, "description": "Pikantny bulion sezamowy z mięsem mielonym" },
+        { "name": "Kimchi", "price": 12, "description": "Kiszonka koreańska" }
+      ],
+      "reviews": [
+        { "user": "Filip", "rating": 5, "comment": "Najlepszy ramen w Polsce!" }
+      ]
+    },
+    {
+      "id": 23,
+      "restaurantName": "Himalaya",
+      "category": "Nepalese",
+      "rating": 4.7,
+      "address": "Górska 7",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Momo Kurczak", "price": 26, "description": "Pierożki nepalskie gotowane na parze" },
+        { "name": "Dal Bhat", "price": 35, "description": "Zestaw z soczewicą, ryżem i warzywami" },
+        { "name": "Mango Lassi", "price": 15, "description": "Napój jogurtowy" }
+      ],
+      "reviews": [
+        { "user": "Agnieszka", "rating": 5, "comment": "Ciekawe smaki, bardzo miła obsługa." }
+      ]
+    },
+    {
+      "id": 24,
+      "restaurantName": "Czarny Burger",
+      "category": "American",
+      "rating": 4.4,
+      "address": "Ciemna 1",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Black Mamba", "price": 39, "description": "Burger w czarnej bułce z sepią" },
+        { "name": "Onion Rings", "price": 16, "description": "Krążki cebulowe w cieście" },
+        { "name": "Brownie", "price": 18, "description": "Ciasto czekoladowe" }
+      ],
+      "reviews": [
+        { "user": "Krzysiek", "rating": 4, "comment": "Wygląda super, smakuje też dobrze." }
+      ]
+    },
+    {
+      "id": 25,
+      "restaurantName": "Zapiekanki u Endziora",
+      "category": "Street Food",
+      "rating": 4.5,
+      "address": "Plac Nowy 4",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Zapiekanka z pieczarkami", "price": 15, "description": "Ser, pieczarki, sos" },
+        { "name": "Zapiekanka z szynką", "price": 18, "description": "Ser, pieczarki, szynka, szczypiorek" },
+        { "name": "Zapiekanka na ostro", "price": 19, "description": "Jalapeño, salami, sos ostry" }
+      ],
+      "reviews": [
+        { "user": "Turysta", "rating": 5, "comment": "Klasyk krakowski, trzeba spróbować." }
+      ]
+    },
+    {
+      "id": 26,
+      "restaurantName": "Gospoda Myśliwska",
+      "category": "Polish",
+      "rating": 4.6,
+      "address": "Leśna 20",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Gulasz z dzika", "price": 48, "description": "Podawany z kaszą gryczaną" },
+        { "name": "Pieczeń z jelenia", "price": 55, "description": "W sosie własnym z kluskami śląskimi" },
+        { "name": "Smalec domowy", "price": 15, "description": "Z ogórkiem kiszonym i chlebem" }
+      ],
+      "reviews": [
+        { "user": "Hubert", "rating": 5, "comment": "Wykwintne dania z dziczyzny." }
+      ]
+    },
+    {
+      "id": 27,
+      "restaurantName": "Trattoria Venezia",
+      "category": "Italian",
+      "rating": 4.3,
+      "address": "Kanałowa 5",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Gnocchi 4 Sery", "price": 36, "description": "Kluski ziemniaczane w sosie serowym" },
+        { "name": "Pizza Prosciutto", "price": 34, "description": "Szynka parmeńska, rukola, parmezan" },
+        { "name": "Panna Cotta", "price": 19, "description": "Deser śmietankowy z sosem malinowym" }
+      ],
+      "reviews": [
+        { "user": "Magda", "rating": 4, "comment": "Pizza super, deser średni." }
+      ]
+    },
+    {
+      "id": 28,
+      "restaurantName": "Zdrowa Miska",
+      "category": "Healthy",
+      "rating": 4.7,
+      "address": "Sportowa 8",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Poke Bowl z łososiem", "price": 39, "description": "Ryż, łosoś surowy, awokado, mango, edamame" },
+        { "name": "Buddha Bowl", "price": 35, "description": "Komosa ryżowa, pieczone warzywa, tofu" },
+        { "name": "Smoothie Zielone", "price": 16, "description": "Szpinak, banan, jabłko" }
+      ],
+      "reviews": [
+        { "user": "FitAnia", "rating": 5, "comment": "Pysznie i zdrowo!" }
+      ]
+    },
+    {
+      "id": 29,
+      "restaurantName": "Czeska Piwnica",
+      "category": "Czech",
+      "rating": 4.4,
+      "address": "Browarna 2",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Smażony Ser", "price": 32, "description": "Z frytkami i sosem tatarskim" },
+        { "name": "Gulasz Czeski", "price": 38, "description": "Z knedlikami bułczanymi" },
+        { "name": "Utopenci", "price": 18, "description": "Marynowane kiełbaski" }
+      ],
+      "reviews": [
+        { "user": "Janusz", "rating": 4, "comment": "Dobre piwo i ser, klimat ok." }
+      ]
+    },
+    {
+      "id": 30,
+      "restaurantName": "Kura Domowa",
+      "category": "Polish",
+      "rating": 4.1,
+      "address": "Wiejska 11",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Kurczak Pieczony", "price": 30, "description": "Ćwiartka kurczaka z ziemniakami" },
+        { "name": "Wątróbka z cebulką", "price": 24, "description": "Drobiowa wątróbka z jabłkiem" },
+        { "name": "Zupa Pomidorowa", "price": 14, "description": "Z ryżem lub makaronem" }
+      ],
+      "reviews": [
+        { "user": "Hania", "rating": 4, "comment": "Proste, domowe jedzenie." }
+      ]
+    },
+    {
+      "id": 31,
+      "restaurantName": "Sushi Master",
+      "category": "Japanese",
+      "rating": 4.2,
+      "address": "Japońska 1",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Futomaki Łosoś", "price": 32, "description": "Pieczony łosoś, serek, ogórek" },
+        { "name": "Hosomaki Ogórek", "price": 16, "description": "Małe rolki z ogórkiem" },
+        { "name": "Zestaw Party", "price": 120, "description": "40 kawałków dla 3 osób" }
+      ],
+      "reviews": [
+        { "user": "Dawid", "rating": 4, "comment": "Dobry stosunek jakości do ceny." }
+      ]
+    },
+    {
+      "id": 32,
+      "restaurantName": "La Baguette",
+      "category": "Bakery",
+      "rating": 4.8,
+      "address": "Piekarska 4",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Bagietka z Szynką", "price": 18, "description": "Świeża bagietka, masło, szynka, pomidor" },
+        { "name": "Croissant z czekoladą", "price": 12, "description": "Maślany rogalik z nadzieniem" },
+        { "name": "Kawa Espresso", "price": 9, "description": "Mocna czarna kawa" }
+      ],
+      "reviews": [
+        { "user": "Zosia", "rating": 5, "comment": "Pieczywo zawsze świeże." }
+      ]
+    },
+    {
+      "id": 33,
+      "restaurantName": "Ostra Kuchnia",
+      "category": "Mexican",
+      "rating": 4.3,
+      "address": "Chili 6",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Chili con Carne", "price": 34, "description": "Mielona wołowina, fasola, pomidory" },
+        { "name": "Fajitas Kurczak", "price": 38, "description": "Skwiercząca patelnia z warzywami i mięsem" },
+        { "name": "Churros", "price": 18, "description": "Ciastka smażone z sosem czekoladowym" }
+      ],
+      "reviews": [
+        { "user": "Kamil", "rating": 4, "comment": "Fajitas super, ale głośna muzyka." }
+      ]
+    },
+    {
+      "id": 34,
+      "restaurantName": "Bar Mleczny PRL",
+      "category": "Polish",
+      "rating": 4.5,
+      "address": "Robotnicza 1",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Leniwe", "price": 16, "description": "Kluski z serem, bułka tarta, cukier" },
+        { "name": "Zupa Ogórkowa", "price": 8, "description": "Zupa na żeberkach" },
+        { "name": "Kotlet Mielony", "price": 20, "description": "Z ziemniakami i buraczkami" }
+      ],
+      "reviews": [
+        { "user": "Student", "rating": 5, "comment": "Tanio i smacznie, jak w domu." }
+      ]
+    },
+    {
+      "id": 35,
+      "restaurantName": "Złoty Smok",
+      "category": "Chinese",
+      "rating": 4.0,
+      "address": "Smocza 9",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Kurczak w cieście", "price": 28, "description": "Kawałki kurczaka w cieście z ryżem" },
+        { "name": "Kaczka po pekińsku", "price": 55, "description": "Chrupiąca kaczka z plackami" },
+        { "name": "Ryż smażony", "price": 22, "description": "Ryż z jajkiem i warzywami" }
+      ],
+      "reviews": [
+        { "user": "Tomek", "rating": 3, "comment": "Trochę za tłuste." },
+        { "user": "Asia", "rating": 5, "comment": "Kaczka rewelacja." }
+      ]
+    },
+    {
+      "id": 36,
+      "restaurantName": "Winiarnia u Marka",
+      "category": "Wine Bar",
+      "rating": 4.7,
+      "address": "Winna 12",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Deska Serów", "price": 60, "description": "Wybór serów francuskich i włoskich" },
+        { "name": "Oliwki Marynowane", "price": 15, "description": "Mix oliwek z ziołami" },
+        { "name": "Bruschetta", "price": 20, "description": "Grzanki z pomidorami i bazylią" }
+      ],
+      "reviews": [
+        { "user": "Koneser", "rating": 5, "comment": "Świetny wybór win i przekąsek." }
+      ]
+    },
+    {
+      "id": 37,
+      "restaurantName": "Falafel King",
+      "category": "Middle Eastern",
+      "rating": 4.4,
+      "address": "Kebabowa 3",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Pita Falafel", "price": 20, "description": "Kulki z ciecierzycy w chlebie pita" },
+        { "name": "Talerz Arabski", "price": 35, "description": "Hummus, babaganoush, falafel, sałatka" },
+        { "name": "Baklava", "price": 10, "description": "Słodkie ciastko z orzechami" }
+      ],
+      "reviews": [
+        { "user": "Weganin", "rating": 5, "comment": "Najlepszy falafel w mieście." }
+      ]
+    },
+    {
+      "id": 38,
+      "restaurantName": "Grube Ryby",
+      "category": "Seafood",
+      "rating": 4.6,
+      "address": "Jeziorna 5",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Pstrąg z pieca", "price": 40, "description": "Cały pstrąg z masłem czosnkowym" },
+        { "name": "Sandacz w sosie koperkowym", "price": 48, "description": "Filet z sandacza z ziemniakami" },
+        { "name": "Zupa Rakowa", "price": 28, "description": "Kremowa zupa z szyjkami rakowymi" }
+      ],
+      "reviews": [
+        { "user": "Ryszard", "rating": 5, "comment": "Ryba pierwsza klasa." }
+      ]
+    },
+    {
+      "id": 39,
+      "restaurantName": "Pizzeria Napoli",
+      "category": "Italian",
+      "rating": 4.8,
+      "address": "Południowa 2",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Marinara", "price": 28, "description": "Pomidory San Marzano, czosnek, oregano" },
+        { "name": "Capricciosa", "price": 36, "description": "Szynka, pieczarki, karczochy, oliwki" },
+        { "name": "Calzone", "price": 38, "description": "Pizza pieróg z salami i ricottą" }
+      ],
+      "reviews": [
+        { "user": "Włoch", "rating": 5, "comment": "Prawdziwa neapolitańska pizza." }
+      ]
+    },
+    {
+      "id": 40,
+      "restaurantName": "Balkan Grill",
+      "category": "Balkan",
+      "rating": 4.5,
+      "address": "Chorwacka 7",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Cevapcici", "price": 34, "description": "Wałeczki mięsne z grilla z cebulą" },
+        { "name": "Pleskavica", "price": 36, "description": "Kotlet bałkański z serem w środku" },
+        { "name": "Szopska Sałatka", "price": 22, "description": "Pomidor, ogórek, papryka, ser solankowy" }
+      ],
+      "reviews": [
+        { "user": "Marta", "rating": 4, "comment": "Mięso pyszne, duże porcje." }
+      ]
+    },
+    {
+      "id": 41,
+      "restaurantName": "Czekoladziarnia",
+      "category": "Dessert",
+      "rating": 4.9,
+      "address": "Słodka 1",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Gorąca Czekolada", "price": 18, "description": "Gęsta czekolada z bitą śmietaną" },
+        { "name": "Fondue Czekoladowe", "price": 45, "description": "Dla 2 osób, owoce do maczania" },
+        { "name": "Tort Sachera", "price": 20, "description": "Ciasto czekoladowe z konfiturą morelową" }
+      ],
+      "reviews": [
+        { "user": "Łasuch", "rating": 5, "comment": "Raj dla miłośników czekolady." }
+      ]
+    },
+    {
+      "id": 42,
+      "restaurantName": "Wege Burger",
+      "category": "Vegan",
+      "rating": 4.3,
+      "address": "Zielona 15",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Burger z Kaszy Jaglanej", "price": 28, "description": "Kotlet jaglany, pomidor, rukola" },
+        { "name": "Frytki z Batatów", "price": 16, "description": "Słodkie frytki z sosem wegańskim" },
+        { "name": "Lemoniada", "price": 12, "description": "Domowa lemoniada cytrynowa" }
+      ],
+      "reviews": [
+        { "user": "Klara", "rating": 4, "comment": "Dobre, ale bułka się rozpadała." }
+      ]
+    },
+    {
+      "id": 43,
+      "restaurantName": "Restauracja Zamkowa",
+      "category": "Fine Dining",
+      "rating": 4.8,
+      "address": "Zamkowa 1",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Tatar z polędwicy", "price": 55, "description": "Wołowina, żółtko, pikle, grzyby" },
+        { "name": "Kaczka Confit", "price": 68, "description": "Udko kaczki z modrą kapustą" },
+        { "name": "Beza Pavlova", "price": 28, "description": "Beza z owocami i mascarpone" }
+      ],
+      "reviews": [
+        { "user": "Elegant", "rating": 5, "comment": "Wysoki poziom, idealne na randkę." }
+      ]
+    },
+    {
+      "id": 44,
+      "restaurantName": "Kociołek",
+      "category": "Soup Bar",
+      "rating": 4.4,
+      "address": "Zupna 4",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Krem z dyni", "price": 16, "description": "Z pestkami dyni i oliwą" },
+        { "name": "Grochówka", "price": 18, "description": "Gęsta zupa z boczkiem" },
+        { "name": "Chłodnik Litewski", "price": 17, "description": "Zupa na zimno z buraków i kefiru" }
+      ],
+      "reviews": [
+        { "user": "Zupomaniak", "rating": 4, "comment": "Świetne zupy na lunch." }
+      ]
+    },
+    {
+      "id": 45,
+      "restaurantName": "Bio Bistro",
+      "category": "Healthy",
+      "rating": 4.2,
+      "address": "Eko 9",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Sałatka z komosą", "price": 30, "description": "Quinoa, warzywa, dressing cytrynowy" },
+        { "name": "Wrap pełnoziarnisty", "price": 26, "description": "Kurczak zagrodowy, warzywa" },
+        { "name": "Sok Wyciskany", "price": 18, "description": "Marchew, jabłko, seler" }
+      ],
+      "reviews": [
+        { "user": "EkoMarta", "rating": 4, "comment": "Zdrowo, ale ceny wysokie." }
+      ]
+    },
+    {
+      "id": 46,
+      "restaurantName": "Pizza na Wypasie",
+      "category": "Italian",
+      "rating": 3.7,
+      "address": "Osiedlowa 10",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Pizza Kebab", "price": 38, "description": "Mięso kebab, cebula, sos czosnkowy" },
+        { "name": "Pizza Farmerska", "price": 40, "description": "Boczek, kiełbasa, cebula, kukurydza" },
+        { "name": "Sosy do pizzy", "price": 5, "description": "Czosnkowy lub pomidorowy" }
+      ],
+      "reviews": [
+        { "user": "Głodomor", "rating": 3, "comment": "Dużo składników, ale ciasto gumowate." },
+        { "user": "Sąsiad", "rating": 4, "comment": "Dobra na imprezę." }
+      ]
+    },
+    {
+      "id": 47,
+      "restaurantName": "Sushi Corner",
+      "category": "Japanese",
+      "rating": 4.4,
+      "address": "Róg 2",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Lunch Box", "price": 45, "description": "Zestaw 12 kawałków sushi z zupą" },
+        { "name": "Tempura Krewetki", "price": 30, "description": "4 krewetki w tempurze" },
+        { "name": "Herbata Jaśminowa", "price": 10, "description": "Dzbanek herbaty" }
+      ],
+      "reviews": [
+        { "user": "Pracownik", "rating": 5, "comment": "Szybki i smaczny lunch." }
+      ]
+    },
+    {
+      "id": 48,
+      "restaurantName": "Gruzińska Chata",
+      "category": "Georgian",
+      "rating": 4.6,
+      "address": "Wschodnia 8",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Chaczapuri Megrelskie", "price": 36, "description": "Placek z podwójnym serem" },
+        { "name": "Szaszłyk wieprzowy", "price": 38, "description": "Marynowane mięso z grilla" },
+        { "name": "Lemoniada Gruzińska", "price": 14, "description": "Smak gruszkowy lub estragonowy" }
+      ],
+      "reviews": [
+        { "user": "Podróżnik", "rating": 5, "comment": "Pyszne jedzenie i wino." }
+      ]
+    },
+    {
+      "id": 49,
+      "restaurantName": "Bistro u Joli",
+      "category": "Polish",
+      "rating": 4.0,
+      "address": "Mała 3",
+      "parkingLot": false,
+      "menu": [
+        { "name": "Krokiety z barszczem", "price": 22, "description": "Krokiety z kapustą i grzybami" },
+        { "name": "Gołąbki", "price": 24, "description": "W sosie pomidorowym z ziemniakami" },
+        { "name": "Naleśniki z serem", "price": 18, "description": "Na słodko ze śmietaną" }
+      ],
+      "reviews": [
+        { "user": "Stały Klient", "rating": 4, "comment": "Dobre domowe obiady." }
+      ]
+    },
+    {
+      "id": 50,
+      "restaurantName": "Tex-Mex Grill",
+      "category": "Mexican",
+      "rating": 4.5,
+      "address": "Zachodnia 6",
+      "parkingLot": true,
+      "menu": [
+        { "name": "Burrito Wołowe", "price": 32, "description": "Ryż, fasola, wołowina, salsa" },
+        { "name": "Tacos Krewetka", "price": 34, "description": "Krewetki, mango salsa, limonka" },
+        { "name": "Guacamole", "price": 24, "description": "Pasta z awokado z nachosami" }
+      ],
+      "reviews": [
+        { "user": "Ola", "rating": 5, "comment": "Pikantne i sycące." }
+      ]
+    }
   ]
 }
