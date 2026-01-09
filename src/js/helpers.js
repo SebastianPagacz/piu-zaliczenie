@@ -11,7 +11,7 @@ export function debounce(callback, delay){
 
 export function getRestaurantTypes(restaurantsData){
     let result = new Set();
-    restaurantsData.map((restaurant) => result.add(restaurant.type));
+    restaurantsData.map((restaurant) => result.add(restaurant.category));
 
     return result;
 }

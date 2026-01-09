@@ -13,8 +13,8 @@ export function createRestaurantCard(restaurant){
                     <h3>${restaurant.restaurantName}</h3>
                 </div>
                 <div class="restaurant-card-details">
-                    <p>${restaurant.type}</p>
-                    <p>${Math.floor(Math.random() * 3)+3}⭐</p>
+                    <p>${restaurant.category}</p>
+                    <p>${restaurant.rating}⭐</p>
                 </div>
                 <div class="card-transport-info">
                     <p>${restaurant.address}</p>
