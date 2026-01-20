@@ -1,7 +1,8 @@
 class Store{
     #state = {
         searchFilter: "",
-        categoryFilter: ""
+        categoryFilter: "",
+        selectedRestaurant: null
     };
     
     #subscribers = new Set();
@@ -13,6 +14,11 @@ class Store{
 
     setCategory(category){
         this.#state.categoryFilter = category;
+        this.#notify();
+    }
+
+    setSelectedRestaurant(restaurant){
+        this.#state.selectedRestaurant = restaurant;
         this.#notify();
     }
 

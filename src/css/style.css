@@ -1,4 +1,9 @@
+*{
+    margin: 0;
+}
+
 .filter-container{
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -51,4 +56,67 @@
 .restaurant-img{
     border-radius: 8px;
     width: 100%;
+}
+
+.restaurant-modal{
+    display: none;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.restaurant-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: 
+        "descriptionr1 orderr1"
+        "descriptionr2 orderr2";
+}
+
+.order-button{
+    padding: 5px 10px 5px 10px;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    grid-area: orderr2;
+}
+
+.item-name{
+    grid-area: descriptionr1;
+}
+
+.item-desc{
+    grid-area: descriptionr2;
+}
+
+.item-price{
+    grid-area: orderr1;
+}
+
+.restaurant-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: 
+        "username rating"
+        "desc desc";
+}
+
+.review-content{
+    grid-area: desc;
 }

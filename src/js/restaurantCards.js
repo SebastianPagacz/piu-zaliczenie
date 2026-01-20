@@ -20,6 +20,7 @@ export function createRestaurantCard(restaurant){
                     <p>${restaurant.address}</p>
                     ${parkingFlag}
                 </div>
+                <a href="restaurant.html?id=${restaurant.id}">więcej</a>
             </article>
         `;
 }
