@@ -13,8 +13,9 @@ const init = async () => {
     initTheme();
     const restaurantsContainer = document.getElementById('restaurant-list');
     const restaurantSearchBar = document.getElementById('restaurant-search');
-    const restaurantTypeSelect = document.getElementById(
-        'restaurant-type-select',
+
+    const customSelectContainer = document.getElementById(
+        'custom-category-select',
     );
 
     try {
@@ -29,12 +30,11 @@ const init = async () => {
 
         renderTypesSelect(
             getRestaurantTypes(restaurantData),
-            restaurantTypeSelect,
+            customSelectContainer,
+            (selectedCategory) => {
+                store.setCategory(selectedCategory);
+            },
         );
-
-        restaurantTypeSelect.addEventListener('change', () => {
-            store.setCategory(restaurantTypeSelect.value);
-        });
 
         restaurantSearchBar.addEventListener(
             'input',

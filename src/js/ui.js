@@ -19,13 +19,64 @@ export function showErrorMessage(errorMsg, container) {
     container.appendChild(errorNote);
 }
 
-export function renderTypesSelect(typesList, selectElem) {
-    typesList.forEach((type) => {
-        const option = document.createElement('option');
-        option.value = type;
-        option.innerText = type;
-        selectElem.appendChild(option);
+export function renderTypesSelect(typesList, container, onSelectCallback) {
+    container.innerHTML = '';
+
+    const trigger = document.createElement('div');
+    trigger.className = 'custom-select-trigger';
+    trigger.innerText = 'Wszystkie kategorie';
+
+    const optionsList = document.createElement('div');
+    optionsList.className = 'custom-options-list';
+
+    const allOption = document.createElement('div');
+    allOption.className = 'custom-option selected';
+    allOption.innerText = 'Wszystkie kategorie';
+    allOption.dataset.value = '';
+
+    allOption.addEventListener('click', () => {
+        handleOptionClick(allOption, '', 'Wszystkie kategorie');
     });
+    optionsList.appendChild(allOption);
+
+    typesList.forEach((type) => {
+        const option = document.createElement('div');
+        option.className = 'custom-option';
+        option.innerText = type;
+        option.dataset.value = type;
+
+        option.addEventListener('click', () => {
+            handleOptionClick(option, type, type);
+        });
+
+        optionsList.appendChild(option);
+    });
+
+    function handleOptionClick(optionElement, value, text) {
+        trigger.innerText = text;
+
+        const allOptions = optionsList.querySelectorAll('.custom-option');
+        allOptions.forEach((opt) => opt.classList.remove('selected'));
+        optionElement.classList.add('selected');
+
+        container.classList.remove('open');
+
+        if (onSelectCallback) onSelectCallback(value);
+    }
+
+    trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        container.classList.toggle('open');
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!container.contains(e.target)) {
+            container.classList.remove('open');
+        }
+    });
+
+    container.appendChild(trigger);
+    container.appendChild(optionsList);
 }
 
 export function renderRestaurantPage(restaurant, container) {
