@@ -1,26 +1,34 @@
-export function createRestaurantCard(restaurant){
-    const imageUrl = `https://placehold.co/400x400?text=${restaurant.restaurantName}&font=montserrat`;
-    let parkingFlag = "";
+export function createRestaurantCard(restaurant) {
+    const imageUrl = `https://placehold.co/400x400?text=${restaurant.restaurantName.replace(/ /g, '+')}&font=montserrat`;
 
-    if(restaurant.parkingLot){
-        parkingFlag = "<p>🚗</p>";
-    }
+    const parkingIcon = restaurant.parkingLot
+        ? '<span class="icon" title="Parking dostępny">🚗</span>'
+        : '';
 
     return `
-            <article class="restaurant-card">
-                <div class="restaurant-card-header">
-                    <img class="restaurant-img" src="${imageUrl}">
+        <article class="restaurant-card">
+            <div class="card-image-header">
+                <img class="restaurant-img" src="${imageUrl}" alt="${restaurant.restaurantName}">
+                <span class="category-badge">${restaurant.category}</span>
+            </div>
+            
+            <div class="card-content">
+                <div class="card-title-row">
                     <h3>${restaurant.restaurantName}</h3>
+                    <div class="rating-box">
+                        <span>${restaurant.rating}</span> <span class="star">⭐</span>
+                    </div>
                 </div>
-                <div class="restaurant-card-details">
-                    <p>${restaurant.category}</p>
-                    <p>${restaurant.rating}⭐</p>
+
+                <div class="card-info-row">
+                    <p class="address">📍 ${restaurant.address}</p>
+                    ${parkingIcon}
                 </div>
-                <div class="card-transport-info">
-                    <p>${restaurant.address}</p>
-                    ${parkingFlag}
-                </div>
-                <a href="restaurant.html?id=${restaurant.id}">więcej</a>
-            </article>
-        `;
+
+                <a href="restaurant.html?id=${restaurant.id}" class="btn-details">
+                    Zobacz menu →
+                </a>
+            </div>
+        </article>
+    `;
 }

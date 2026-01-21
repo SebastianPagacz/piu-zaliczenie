@@ -1,7 +1,21 @@
-:root{
-    --text: #ac86b8;
-    --background: #fafcfc;
-    --primary: #6c94a9;
-    --secondary: #b9aed0;
-    --accent: #ac86b8;
+:root {
+  --text-main: #1e293b;
+  --text-light: #64748b;
+
+  --background: #f1f5f9;
+
+  --white: #ffffff;
+
+  --primary: #f97316;
+
+  --secondary: #ea580c;
+
+  --accent: #f59e0b;
+
+  --shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --shadow-hover:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  --radius: 16px;
 }
