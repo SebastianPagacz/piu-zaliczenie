@@ -7,14 +7,38 @@
       "rating": 4.5,
       "address": "Kolna 18",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Margherita", "price": 32, "description": "Sos pomidorowy, mozzarella, bazylia" },
-        { "name": "Diavola", "price": 38, "description": "Salami piccante, chili, mozzarella" },
-        { "name": "Carbonara", "price": 42, "description": "Spaghetti, guanciale, jajko, pecorino" }
+        {
+          "name": "Margherita",
+          "price": 32,
+          "description": "Sos pomidorowy, mozzarella, bazylia",
+          "image": ""
+        },
+        {
+          "name": "Diavola",
+          "price": 38,
+          "description": "Salami piccante, chili, mozzarella",
+          "image": ""
+        },
+        {
+          "name": "Carbonara",
+          "price": 42,
+          "description": "Spaghetti, guanciale, jajko, pecorino",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Jan Kowalski", "rating": 5, "comment": "Najlepsza pizza w mieście!" },
-        { "user": "Anna Nowak", "rating": 4, "comment": "Smaczne, ale długo czekaliśmy." }
+        {
+          "user": "Jan Kowalski",
+          "rating": 5,
+          "comment": "Najlepsza pizza w mieście!"
+        },
+        {
+          "user": "Anna Nowak",
+          "rating": 4,
+          "comment": "Smaczne, ale długo czekaliśmy."
+        }
       ]
     },
     {
@@ -24,10 +48,26 @@
       "rating": 4.8,
       "address": "Rynek Główny 5",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Pierogi Ruskie", "price": 28, "description": "Twaróg, ziemniaki, cebulka" },
-        { "name": "Pierogi z Mięsem", "price": 30, "description": "Mięso wieprzowo-wołowe, okrasa" },
-        { "name": "Barszcz Czerwony", "price": 15, "description": "Tradycyjny barszcz na zakwasie" }
+        {
+          "name": "Pierogi Ruskie",
+          "price": 28,
+          "description": "Twaróg, ziemniaki, cebulka",
+          "image": ""
+        },
+        {
+          "name": "Pierogi z Mięsem",
+          "price": 30,
+          "description": "Mięso wieprzowo-wołowe, okrasa",
+          "image": ""
+        },
+        {
+          "name": "Barszcz Czerwony",
+          "price": 15,
+          "description": "Tradycyjny barszcz na zakwasie",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Marek Z.", "rating": 5, "comment": "Jak u mamy, polecam!" }
@@ -40,14 +80,38 @@
       "rating": 4.6,
       "address": "Długa 12",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Zestaw Nigiri", "price": 55, "description": "6 sztuk nigiri z łososiem i tuńczykiem" },
-        { "name": "California Roll", "price": 35, "description": "Krab, awokado, ogórek, sezam" },
-        { "name": "Miso Soup", "price": 18, "description": "Zupa z pasty sojowej z tofu i wakame" }
+        {
+          "name": "Zestaw Nigiri",
+          "price": 55,
+          "description": "6 sztuk nigiri z łososiem i tuńczykiem",
+          "image": ""
+        },
+        {
+          "name": "California Roll",
+          "price": 35,
+          "description": "Krab, awokado, ogórek, sezam",
+          "image": ""
+        },
+        {
+          "name": "Miso Soup",
+          "price": 18,
+          "description": "Zupa z pasty sojowej z tofu i wakame",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Kasia M.", "rating": 4, "comment": "Świeża ryba, ale drogo." },
-        { "user": "Tomek", "rating": 5, "comment": "Najlepsze sushi w okolicy." }
+        {
+          "user": "Kasia M.",
+          "rating": 4,
+          "comment": "Świeża ryba, ale drogo."
+        },
+        {
+          "user": "Tomek",
+          "rating": 5,
+          "comment": "Najlepsze sushi w okolicy."
+        }
       ]
     },
     {
@@ -57,13 +121,33 @@
       "rating": 4.3,
       "address": "Lipowa 44",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Classic Burger", "price": 34, "description": "Wołowina, sałata, pomidor, ogórek, sos" },
-        { "name": "Cheeseburger", "price": 36, "description": "Wołowina, podwójny cheddar, cebula" },
-        { "name": "Frytki Belgijskie", "price": 14, "description": "Grubo krojone frytki z majonezem" }
+        {
+          "name": "Classic Burger",
+          "price": 34,
+          "description": "Wołowina, sałata, pomidor, ogórek, sos",
+          "image": ""
+        },
+        {
+          "name": "Cheeseburger",
+          "price": 36,
+          "description": "Wołowina, podwójny cheddar, cebula",
+          "image": ""
+        },
+        {
+          "name": "Frytki Belgijskie",
+          "price": 14,
+          "description": "Grubo krojone frytki z majonezem",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Bartek", "rating": 4, "comment": "Solidny burger, bułka mogłaby być lepsza." }
+        {
+          "user": "Bartek",
+          "rating": 4,
+          "comment": "Solidny burger, bułka mogłaby być lepsza."
+        }
       ]
     },
     {
@@ -73,13 +157,33 @@
       "rating": 4.7,
       "address": "Szewska 2",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Pad Thai", "price": 42, "description": "Makaron ryżowy, krewetki, orzeszki, tamaryndowiec" },
-        { "name": "Green Curry", "price": 39, "description": "Curry zielone z kurczakiem i mlekiem kokosowym" },
-        { "name": "Tom Yum", "price": 25, "description": "Ostra zupa z krewetkami i trawą cytrynową" }
+        {
+          "name": "Pad Thai",
+          "price": 42,
+          "description": "Makaron ryżowy, krewetki, orzeszki, tamaryndowiec",
+          "image": ""
+        },
+        {
+          "name": "Green Curry",
+          "price": 39,
+          "description": "Curry zielone z kurczakiem i mlekiem kokosowym",
+          "image": ""
+        },
+        {
+          "name": "Tom Yum",
+          "price": 25,
+          "description": "Ostra zupa z krewetkami i trawą cytrynową",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Zuza", "rating": 5, "comment": "Autentyczne smaki Tajlandii!" }
+        {
+          "user": "Zuza",
+          "rating": 5,
+          "comment": "Autentyczne smaki Tajlandii!"
+        }
       ]
     },
     {
@@ -89,10 +193,26 @@
       "rating": 4.4,
       "address": "Ogrodowa 8",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Tacos al Pastor", "price": 32, "description": "3 sztuki, wieprzowina, ananas, kolendra" },
-        { "name": "Quesadilla", "price": 29, "description": "Tortilla z serem i kurczakiem" },
-        { "name": "Nachos Grande", "price": 25, "description": "Nachosy zapiekane z serem i jalapeño" }
+        {
+          "name": "Tacos al Pastor",
+          "price": 32,
+          "description": "3 sztuki, wieprzowina, ananas, kolendra",
+          "image": ""
+        },
+        {
+          "name": "Quesadilla",
+          "price": 29,
+          "description": "Tortilla z serem i kurczakiem",
+          "image": ""
+        },
+        {
+          "name": "Nachos Grande",
+          "price": 25,
+          "description": "Nachosy zapiekane z serem i jalapeño",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Patryk", "rating": 4, "comment": "Dobre, ale mało ostre." }
@@ -105,13 +225,33 @@
       "rating": 4.9,
       "address": "Krupnicza 10",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Hummus Plate", "price": 26, "description": "Hummus klasyczny, warzywa, pita" },
-        { "name": "Beyond Burger", "price": 45, "description": "Roślinny burger, wegański ser, pikle" },
-        { "name": "Falafel Wrap", "price": 24, "description": "Falafel, świeże warzywa, sos tahini" }
+        {
+          "name": "Hummus Plate",
+          "price": 26,
+          "description": "Hummus klasyczny, warzywa, pita",
+          "image": ""
+        },
+        {
+          "name": "Beyond Burger",
+          "price": 45,
+          "description": "Roślinny burger, wegański ser, pikle",
+          "image": ""
+        },
+        {
+          "name": "Falafel Wrap",
+          "price": 24,
+          "description": "Falafel, świeże warzywa, sos tahini",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Ewa", "rating": 5, "comment": "Nawet mąż mięsożerca był zachwycony." }
+        {
+          "user": "Ewa",
+          "rating": 5,
+          "comment": "Nawet mąż mięsożerca był zachwycony."
+        }
       ]
     },
     {
@@ -121,13 +261,33 @@
       "rating": 4.5,
       "address": "Starowiślna 15",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Butter Chicken", "price": 38, "description": "Kurczak w sosie pomidorowo-maślanym" },
-        { "name": "Garlic Naan", "price": 12, "description": "Chlebek indyjski z czosnkiem" },
-        { "name": "Mango Lassi", "price": 16, "description": "Napój jogurtowy z mango" }
+        {
+          "name": "Butter Chicken",
+          "price": 38,
+          "description": "Kurczak w sosie pomidorowo-maślanym",
+          "image": ""
+        },
+        {
+          "name": "Garlic Naan",
+          "price": 12,
+          "description": "Chlebek indyjski z czosnkiem",
+          "image": ""
+        },
+        {
+          "name": "Mango Lassi",
+          "price": 16,
+          "description": "Napój jogurtowy z mango",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Rafał", "rating": 5, "comment": "Prawdziwe indyjskie jedzenie." },
+        {
+          "user": "Rafał",
+          "rating": 5,
+          "comment": "Prawdziwe indyjskie jedzenie."
+        },
         { "user": "Ola", "rating": 4, "comment": "Trochę za słone." }
       ]
     },
@@ -138,10 +298,26 @@
       "rating": 4.6,
       "address": "Francuska 3",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Zupa Cebulowa", "price": 22, "description": "Zupa z grzanką i serem gruyère" },
-        { "name": "Quiche Lorraine", "price": 28, "description": "Tarta z boczkiem i śmietaną" },
-        { "name": "Crème Brûlée", "price": 20, "description": "Deser z palonym cukrem" }
+        {
+          "name": "Zupa Cebulowa",
+          "price": 22,
+          "description": "Zupa z grzanką i serem gruyère",
+          "image": ""
+        },
+        {
+          "name": "Quiche Lorraine",
+          "price": 28,
+          "description": "Tarta z boczkiem i śmietaną",
+          "image": ""
+        },
+        {
+          "name": "Crème Brûlée",
+          "price": 20,
+          "description": "Deser z palonym cukrem",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Monika", "rating": 5, "comment": "Klimat jak w Paryżu." }
@@ -154,13 +330,33 @@
       "rating": 4.2,
       "address": "Polna 50",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Kotlet Schabowy XXL", "price": 35, "description": "Wielki schabowy z ziemniakami i kapustą" },
-        { "name": "Rosół", "price": 14, "description": "Domowy rosół z makaronem" },
-        { "name": "Kompot", "price": 6, "description": "Kompot owocowy sezonowy" }
+        {
+          "name": "Kotlet Schabowy XXL",
+          "price": 35,
+          "description": "Wielki schabowy z ziemniakami i kapustą",
+          "image": ""
+        },
+        {
+          "name": "Rosół",
+          "price": 14,
+          "description": "Domowy rosół z makaronem",
+          "image": ""
+        },
+        {
+          "name": "Kompot",
+          "price": 6,
+          "description": "Kompot owocowy sezonowy",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Wiesław", "rating": 4, "comment": "Porcje ogromne, nie do przejedzenia." }
+        {
+          "user": "Wiesław",
+          "rating": 4,
+          "comment": "Porcje ogromne, nie do przejedzenia."
+        }
       ]
     },
     {
@@ -170,13 +366,34 @@
       "rating": 4.7,
       "address": "Włoska 7",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Tagliatelle Bolognese", "price": 36, "description": "Domowy makaron z sosem mięsnym" },
-        { "name": "Ravioli ze Szpinakiem", "price": 34, "description": "Pierożki z ricottą i szpinakiem" },
-        { "name": "Tiramisu", "price": 22, "description": "Klasyczny włoski deser" }
+        {
+          "name": "Tagliatelle Bolognese",
+          "price": 36,
+          "description": "Domowy makaron z sosem mięsnym",
+          "image": ""
+        },
+        {
+          "name": "Ravioli ze Szpinakiem",
+          "price": 34,
+          "description": "Pierożki z ricottą i szpinakiem",
+          "image": ""
+        },
+        {
+          "name": "Tiramisu",
+          "price": 22,
+          "description": "Klasyczny włoski deser",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Karolina", "rating": 5, "comment": "Makaron robiony na miejscu, rewelacja." }
+        {
+          "user": "Karolina",
+          "rating": 5,
+          "comment": "Makaron robiony na miejscu, rewelacja.",
+          "image": ""
+        }
       ]
     },
     {
@@ -186,10 +403,26 @@
       "rating": 3.9,
       "address": "Dworcowa 1",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Kebab w bułce", "price": 20, "description": "Baranina, surówki, sos mieszany" },
-        { "name": "Kebab Rollo", "price": 22, "description": "Duże rollo z kurczakiem" },
-        { "name": "Frytki", "price": 10, "description": "Porcja frytek" }
+        {
+          "name": "Kebab w bułce",
+          "price": 20,
+          "description": "Baranina, surówki, sos mieszany",
+          "image": ""
+        },
+        {
+          "name": "Kebab Rollo",
+          "price": 22,
+          "description": "Duże rollo z kurczakiem",
+          "image": ""
+        },
+        {
+          "name": "Frytki",
+          "price": 10,
+          "description": "Porcja frytek",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Seba", "rating": 4, "comment": "Dobre na szybko." },
@@ -203,13 +436,33 @@
       "rating": 4.8,
       "address": "Miodowa 9",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Sernik Wiedeński", "price": 18, "description": "Puszysty sernik z czekoladą" },
-        { "name": "Cappuccino", "price": 14, "description": "Kawa ze spienionym mlekiem" },
-        { "name": "Szarlotka na ciepło", "price": 19, "description": "Z lodami i bitą śmietaną" }
+        {
+          "name": "Sernik Wiedeński",
+          "price": 18,
+          "description": "Puszysty sernik z czekoladą",
+          "image": ""
+        },
+        {
+          "name": "Cappuccino",
+          "price": 14,
+          "description": "Kawa ze spienionym mlekiem",
+          "image": ""
+        },
+        {
+          "name": "Szarlotka na ciepło",
+          "price": 19,
+          "description": "Z lodami i bitą śmietaną",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Babcia Jadzia", "rating": 5, "comment": "Najlepsze ciasta w mieście." }
+        {
+          "user": "Babcia Jadzia",
+          "rating": 5,
+          "comment": "Najlepsze ciasta w mieście."
+        }
       ]
     },
     {
@@ -219,10 +472,26 @@
       "rating": 4.6,
       "address": "Prosta 100",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Ribeye Steak", "price": 95, "description": "Antrykot wołowy sezonowany 30 dni" },
-        { "name": "New York Strip", "price": 85, "description": "Rostbef wołowy z grilla" },
-        { "name": "Coleslaw", "price": 12, "description": "Surówka z białej kapusty" }
+        {
+          "name": "Ribeye Steak",
+          "price": 95,
+          "description": "Antrykot wołowy sezonowany 30 dni",
+          "image": ""
+        },
+        {
+          "name": "New York Strip",
+          "price": 85,
+          "description": "Rostbef wołowy z grilla",
+          "image": ""
+        },
+        {
+          "name": "Coleslaw",
+          "price": 12,
+          "description": "Surówka z białej kapusty",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Mirek", "rating": 5, "comment": "Mięso idealnie wysmażone." }
@@ -235,13 +504,33 @@
       "rating": 4.5,
       "address": "Olimpijska 4",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Sałatka Grecka", "price": 28, "description": "Feta, oliwki, pomidor, ogórek, oregano" },
-        { "name": "Souvlaki", "price": 36, "description": "Szaszłyki z kurczaka z pitą" },
-        { "name": "Musaka", "price": 40, "description": "Zapiekanka z bakłażanem i mięsem mielonym" }
+        {
+          "name": "Sałatka Grecka",
+          "price": 28,
+          "description": "Feta, oliwki, pomidor, ogórek, oregano",
+          "image": ""
+        },
+        {
+          "name": "Souvlaki",
+          "price": 36,
+          "description": "Szaszłyki z kurczaka z pitą",
+          "image": ""
+        },
+        {
+          "name": "Musaka",
+          "price": 40,
+          "description": "Zapiekanka z bakłażanem i mięsem mielonym",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Dorota", "rating": 4, "comment": "Bardzo smaczne, ale głośno." }
+        {
+          "user": "Dorota",
+          "rating": 4,
+          "comment": "Bardzo smaczne, ale głośno."
+        }
       ]
     },
     {
@@ -251,10 +540,26 @@
       "rating": 4.7,
       "address": "Kaukaska 2",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Chinkali", "price": 30, "description": "5 sztuk pierogów z rosołem w środku" },
-        { "name": "Chaczapuri Adżarskie", "price": 34, "description": "Placek z serem i jajkiem" },
-        { "name": "Bakłażan z orzechami", "price": 22, "description": "Roladki z pastą orzechową" }
+        {
+          "name": "Chinkali",
+          "price": 30,
+          "description": "5 sztuk pierogów z rosołem w środku",
+          "image": ""
+        },
+        {
+          "name": "Chaczapuri Adżarskie",
+          "price": 34,
+          "description": "Placek z serem i jajkiem",
+          "image": ""
+        },
+        {
+          "name": "Bakłażan z orzechami",
+          "price": 22,
+          "description": "Roladki z pastą orzechową",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Grzegorz", "rating": 5, "comment": "Chinkali mistrzostwo!" }
@@ -267,10 +572,26 @@
       "rating": 4.3,
       "address": "Portowa 1",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Dorsz Smażony", "price": 42, "description": "Filet z dorsza z frytkami i surówką" },
-        { "name": "Zupa Rybna", "price": 20, "description": "Pikantna zupa z kawałkami ryb" },
-        { "name": "Tatar z Łososia", "price": 38, "description": "Siekany łosoś z dodatkami" }
+        {
+          "name": "Dorsz Smażony",
+          "price": 42,
+          "description": "Filet z dorsza z frytkami i surówką",
+          "image": ""
+        },
+        {
+          "name": "Zupa Rybna",
+          "price": 20,
+          "description": "Pikantna zupa z kawałkami ryb",
+          "image": ""
+        },
+        {
+          "name": "Tatar z Łososia",
+          "price": 38,
+          "description": "Siekany łosoś z dodatkami",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Andrzej", "rating": 4, "comment": "Ryba świeża, ceny ok." }
@@ -283,13 +604,33 @@
       "rating": 4.5,
       "address": "Poranna 8",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Pankejki z Syropem", "price": 26, "description": "Amerykańskie naleśniki z syropem klonowym" },
-        { "name": "Jajecznica na maśle", "price": 18, "description": "Z 3 jaj z pieczywem" },
-        { "name": "Kawa Latte", "price": 15, "description": "Duża kawa mleczna" }
+        {
+          "name": "Pankejki z Syropem",
+          "price": 26,
+          "description": "Amerykańskie naleśniki z syropem klonowym",
+          "image": ""
+        },
+        {
+          "name": "Jajecznica na maśle",
+          "price": 18,
+          "description": "Z 3 jaj z pieczywem",
+          "image": ""
+        },
+        {
+          "name": "Kawa Latte",
+          "price": 15,
+          "description": "Duża kawa mleczna",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Julia", "rating": 5, "comment": "Idealne miejsce na śniadanie." }
+        {
+          "user": "Julia",
+          "rating": 5,
+          "comment": "Idealne miejsce na śniadanie."
+        }
       ]
     },
     {
@@ -299,10 +640,26 @@
       "rating": 4.2,
       "address": "Azjatycka 5",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Pho Bo", "price": 28, "description": "Wietnamski rosół z wołowiną" },
-        { "name": "Sajgonki", "price": 16, "description": "3 sztuki z mięsem i warzywami" },
-        { "name": "Kurczak 5 smaków", "price": 32, "description": "Kurczak w aromatycznym sosie z ryżem" }
+        {
+          "name": "Pho Bo",
+          "price": 28,
+          "description": "Wietnamski rosół z wołowiną",
+          "image": ""
+        },
+        {
+          "name": "Sajgonki",
+          "price": 16,
+          "description": "3 sztuki z mięsem i warzywami",
+          "image": ""
+        },
+        {
+          "name": "Kurczak 5 smaków",
+          "price": 32,
+          "description": "Kurczak w aromatycznym sosie z ryżem",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Marcin", "rating": 4, "comment": "Dobre Pho, duża porcja." }
@@ -315,10 +672,26 @@
       "rating": 4.6,
       "address": "Słoneczna 22",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Patatas Bravas", "price": 22, "description": "Ziemniaczki w ostrym sosie" },
-        { "name": "Gambas al Pil Pil", "price": 38, "description": "Krewetki w czosnku i oliwie" },
-        { "name": "Chorizo w winie", "price": 28, "description": "Kiełbaski duszone w czerwonym winie" }
+        {
+          "name": "Patatas Bravas",
+          "price": 22,
+          "description": "Ziemniaczki w ostrym sosie",
+          "image": ""
+        },
+        {
+          "name": "Gambas al Pil Pil",
+          "price": 38,
+          "description": "Krewetki w czosnku i oliwie",
+          "image": ""
+        },
+        {
+          "name": "Chorizo w winie",
+          "price": 28,
+          "description": "Kiełbaski duszone w czerwonym winie",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Iza", "rating": 5, "comment": "Super przekąski do wina." }
@@ -331,13 +704,33 @@
       "rating": 3.8,
       "address": "Krakowska 90",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Żurek w chlebie", "price": 24, "description": "Tradycyjny żurek z jajkiem i kiełbasą" },
-        { "name": "Bigos", "price": 22, "description": "Kapusta kiszona z różnymi mięsami" },
-        { "name": "Placki Ziemniaczane", "price": 20, "description": "Ze śmietaną i cukrem" }
+        {
+          "name": "Żurek w chlebie",
+          "price": 24,
+          "description": "Tradycyjny żurek z jajkiem i kiełbasą",
+          "image": ""
+        },
+        {
+          "name": "Bigos",
+          "price": 22,
+          "description": "Kapusta kiszona z różnymi mięsami",
+          "image": ""
+        },
+        {
+          "name": "Placki Ziemniaczane",
+          "price": 20,
+          "description": "Ze śmietaną i cukrem",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Darek", "rating": 3, "comment": "Jedzenie ok, ale obsługa niemiła." },
+        {
+          "user": "Darek",
+          "rating": 3,
+          "comment": "Jedzenie ok, ale obsługa niemiła."
+        },
         { "user": "Basia", "rating": 4, "comment": "Dobry żurek." }
       ]
     },
@@ -348,10 +741,26 @@
       "rating": 4.8,
       "address": "Nowy Świat 3",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Shoyu Ramen", "price": 38, "description": "Bulion drobiowy, sos sojowy, chashu" },
-        { "name": "Tantanmen", "price": 40, "description": "Pikantny bulion sezamowy z mięsem mielonym" },
-        { "name": "Kimchi", "price": 12, "description": "Kiszonka koreańska" }
+        {
+          "name": "Shoyu Ramen",
+          "price": 38,
+          "description": "Bulion drobiowy, sos sojowy, chashu",
+          "image": ""
+        },
+        {
+          "name": "Tantanmen",
+          "price": 40,
+          "description": "Pikantny bulion sezamowy z mięsem mielonym",
+          "image": ""
+        },
+        {
+          "name": "Kimchi",
+          "price": 12,
+          "description": "Kiszonka koreańska",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Filip", "rating": 5, "comment": "Najlepszy ramen w Polsce!" }
@@ -364,13 +773,33 @@
       "rating": 4.7,
       "address": "Górska 7",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Momo Kurczak", "price": 26, "description": "Pierożki nepalskie gotowane na parze" },
-        { "name": "Dal Bhat", "price": 35, "description": "Zestaw z soczewicą, ryżem i warzywami" },
-        { "name": "Mango Lassi", "price": 15, "description": "Napój jogurtowy" }
+        {
+          "name": "Momo Kurczak",
+          "price": 26,
+          "description": "Pierożki nepalskie gotowane na parze",
+          "image": ""
+        },
+        {
+          "name": "Dal Bhat",
+          "price": 35,
+          "description": "Zestaw z soczewicą, ryżem i warzywami",
+          "image": ""
+        },
+        {
+          "name": "Mango Lassi",
+          "price": 15,
+          "description": "Napój jogurtowy",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Agnieszka", "rating": 5, "comment": "Ciekawe smaki, bardzo miła obsługa." }
+        {
+          "user": "Agnieszka",
+          "rating": 5,
+          "comment": "Ciekawe smaki, bardzo miła obsługa."
+        }
       ]
     },
     {
@@ -380,13 +809,33 @@
       "rating": 4.4,
       "address": "Ciemna 1",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Black Mamba", "price": 39, "description": "Burger w czarnej bułce z sepią" },
-        { "name": "Onion Rings", "price": 16, "description": "Krążki cebulowe w cieście" },
-        { "name": "Brownie", "price": 18, "description": "Ciasto czekoladowe" }
+        {
+          "name": "Black Mamba",
+          "price": 39,
+          "description": "Burger w czarnej bułce z sepią",
+          "image": ""
+        },
+        {
+          "name": "Onion Rings",
+          "price": 16,
+          "description": "Krążki cebulowe w cieście",
+          "image": ""
+        },
+        {
+          "name": "Brownie",
+          "price": 18,
+          "description": "Ciasto czekoladowe",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Krzysiek", "rating": 4, "comment": "Wygląda super, smakuje też dobrze." }
+        {
+          "user": "Krzysiek",
+          "rating": 4,
+          "comment": "Wygląda super, smakuje też dobrze."
+        }
       ]
     },
     {
@@ -396,13 +845,33 @@
       "rating": 4.5,
       "address": "Plac Nowy 4",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Zapiekanka z pieczarkami", "price": 15, "description": "Ser, pieczarki, sos" },
-        { "name": "Zapiekanka z szynką", "price": 18, "description": "Ser, pieczarki, szynka, szczypiorek" },
-        { "name": "Zapiekanka na ostro", "price": 19, "description": "Jalapeño, salami, sos ostry" }
+        {
+          "name": "Zapiekanka z pieczarkami",
+          "price": 15,
+          "description": "Ser, pieczarki, sos",
+          "image": ""
+        },
+        {
+          "name": "Zapiekanka z szynką",
+          "price": 18,
+          "description": "Ser, pieczarki, szynka, szczypiorek",
+          "image": ""
+        },
+        {
+          "name": "Zapiekanka na ostro",
+          "price": 19,
+          "description": "Jalapeño, salami, sos ostry",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Turysta", "rating": 5, "comment": "Klasyk krakowski, trzeba spróbować." }
+        {
+          "user": "Turysta",
+          "rating": 5,
+          "comment": "Klasyk krakowski, trzeba spróbować."
+        }
       ]
     },
     {
@@ -412,13 +881,33 @@
       "rating": 4.6,
       "address": "Leśna 20",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Gulasz z dzika", "price": 48, "description": "Podawany z kaszą gryczaną" },
-        { "name": "Pieczeń z jelenia", "price": 55, "description": "W sosie własnym z kluskami śląskimi" },
-        { "name": "Smalec domowy", "price": 15, "description": "Z ogórkiem kiszonym i chlebem" }
+        {
+          "name": "Gulasz z dzika",
+          "price": 48,
+          "description": "Podawany z kaszą gryczaną",
+          "image": ""
+        },
+        {
+          "name": "Pieczeń z jelenia",
+          "price": 55,
+          "description": "W sosie własnym z kluskami śląskimi",
+          "image": ""
+        },
+        {
+          "name": "Smalec domowy",
+          "price": 15,
+          "description": "Z ogórkiem kiszonym i chlebem",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Hubert", "rating": 5, "comment": "Wykwintne dania z dziczyzny." }
+        {
+          "user": "Hubert",
+          "rating": 5,
+          "comment": "Wykwintne dania z dziczyzny."
+        }
       ]
     },
     {
@@ -428,13 +917,33 @@
       "rating": 4.3,
       "address": "Kanałowa 5",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Gnocchi 4 Sery", "price": 36, "description": "Kluski ziemniaczane w sosie serowym" },
-        { "name": "Pizza Prosciutto", "price": 34, "description": "Szynka parmeńska, rukola, parmezan" },
-        { "name": "Panna Cotta", "price": 19, "description": "Deser śmietankowy z sosem malinowym" }
+        {
+          "name": "Gnocchi 4 Sery",
+          "price": 36,
+          "description": "Kluski ziemniaczane w sosie serowym",
+          "image": ""
+        },
+        {
+          "name": "Pizza Prosciutto",
+          "price": 34,
+          "description": "Szynka parmeńska, rukola, parmezan",
+          "image": ""
+        },
+        {
+          "name": "Panna Cotta",
+          "price": 19,
+          "description": "Deser śmietankowy z sosem malinowym",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Magda", "rating": 4, "comment": "Pizza super, deser średni." }
+        {
+          "user": "Magda",
+          "rating": 4,
+          "comment": "Pizza super, deser średni."
+        }
       ]
     },
     {
@@ -444,10 +953,26 @@
       "rating": 4.7,
       "address": "Sportowa 8",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Poke Bowl z łososiem", "price": 39, "description": "Ryż, łosoś surowy, awokado, mango, edamame" },
-        { "name": "Buddha Bowl", "price": 35, "description": "Komosa ryżowa, pieczone warzywa, tofu" },
-        { "name": "Smoothie Zielone", "price": 16, "description": "Szpinak, banan, jabłko" }
+        {
+          "name": "Poke Bowl z łososiem",
+          "price": 39,
+          "description": "Ryż, łosoś surowy, awokado, mango, edamame",
+          "image": ""
+        },
+        {
+          "name": "Buddha Bowl",
+          "price": 35,
+          "description": "Komosa ryżowa, pieczone warzywa, tofu",
+          "image": ""
+        },
+        {
+          "name": "Smoothie Zielone",
+          "price": 16,
+          "description": "Szpinak, banan, jabłko",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "FitAnia", "rating": 5, "comment": "Pysznie i zdrowo!" }
@@ -460,13 +985,33 @@
       "rating": 4.4,
       "address": "Browarna 2",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Smażony Ser", "price": 32, "description": "Z frytkami i sosem tatarskim" },
-        { "name": "Gulasz Czeski", "price": 38, "description": "Z knedlikami bułczanymi" },
-        { "name": "Utopenci", "price": 18, "description": "Marynowane kiełbaski" }
+        {
+          "name": "Smażony Ser",
+          "price": 32,
+          "description": "Z frytkami i sosem tatarskim",
+          "image": ""
+        },
+        {
+          "name": "Gulasz Czeski",
+          "price": 38,
+          "description": "Z knedlikami bułczanymi",
+          "image": ""
+        },
+        {
+          "name": "Utopenci",
+          "price": 18,
+          "description": "Marynowane kiełbaski",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Janusz", "rating": 4, "comment": "Dobre piwo i ser, klimat ok." }
+        {
+          "user": "Janusz",
+          "rating": 4,
+          "comment": "Dobre piwo i ser, klimat ok."
+        }
       ]
     },
     {
@@ -476,10 +1021,26 @@
       "rating": 4.1,
       "address": "Wiejska 11",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Kurczak Pieczony", "price": 30, "description": "Ćwiartka kurczaka z ziemniakami" },
-        { "name": "Wątróbka z cebulką", "price": 24, "description": "Drobiowa wątróbka z jabłkiem" },
-        { "name": "Zupa Pomidorowa", "price": 14, "description": "Z ryżem lub makaronem" }
+        {
+          "name": "Kurczak Pieczony",
+          "price": 30,
+          "description": "Ćwiartka kurczaka z ziemniakami",
+          "image": ""
+        },
+        {
+          "name": "Wątróbka z cebulką",
+          "price": 24,
+          "description": "Drobiowa wątróbka z jabłkiem",
+          "image": ""
+        },
+        {
+          "name": "Zupa Pomidorowa",
+          "price": 14,
+          "description": "Z ryżem lub makaronem",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Hania", "rating": 4, "comment": "Proste, domowe jedzenie." }
@@ -492,13 +1053,33 @@
       "rating": 4.2,
       "address": "Japońska 1",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Futomaki Łosoś", "price": 32, "description": "Pieczony łosoś, serek, ogórek" },
-        { "name": "Hosomaki Ogórek", "price": 16, "description": "Małe rolki z ogórkiem" },
-        { "name": "Zestaw Party", "price": 120, "description": "40 kawałków dla 3 osób" }
+        {
+          "name": "Futomaki Łosoś",
+          "price": 32,
+          "description": "Pieczony łosoś, serek, ogórek",
+          "image": ""
+        },
+        {
+          "name": "Hosomaki Ogórek",
+          "price": 16,
+          "description": "Małe rolki z ogórkiem",
+          "image": ""
+        },
+        {
+          "name": "Zestaw Party",
+          "price": 120,
+          "description": "40 kawałków dla 3 osób",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Dawid", "rating": 4, "comment": "Dobry stosunek jakości do ceny." }
+        {
+          "user": "Dawid",
+          "rating": 4,
+          "comment": "Dobry stosunek jakości do ceny."
+        }
       ]
     },
     {
@@ -508,10 +1089,26 @@
       "rating": 4.8,
       "address": "Piekarska 4",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Bagietka z Szynką", "price": 18, "description": "Świeża bagietka, masło, szynka, pomidor" },
-        { "name": "Croissant z czekoladą", "price": 12, "description": "Maślany rogalik z nadzieniem" },
-        { "name": "Kawa Espresso", "price": 9, "description": "Mocna czarna kawa" }
+        {
+          "name": "Bagietka z Szynką",
+          "price": 18,
+          "description": "Świeża bagietka, masło, szynka, pomidor",
+          "image": ""
+        },
+        {
+          "name": "Croissant z czekoladą",
+          "price": 12,
+          "description": "Maślany rogalik z nadzieniem",
+          "image": ""
+        },
+        {
+          "name": "Kawa Espresso",
+          "price": 9,
+          "description": "Mocna czarna kawa",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Zosia", "rating": 5, "comment": "Pieczywo zawsze świeże." }
@@ -524,13 +1121,33 @@
       "rating": 4.3,
       "address": "Chili 6",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Chili con Carne", "price": 34, "description": "Mielona wołowina, fasola, pomidory" },
-        { "name": "Fajitas Kurczak", "price": 38, "description": "Skwiercząca patelnia z warzywami i mięsem" },
-        { "name": "Churros", "price": 18, "description": "Ciastka smażone z sosem czekoladowym" }
+        {
+          "name": "Chili con Carne",
+          "price": 34,
+          "description": "Mielona wołowina, fasola, pomidory",
+          "image": ""
+        },
+        {
+          "name": "Fajitas Kurczak",
+          "price": 38,
+          "description": "Skwiercząca patelnia z warzywami i mięsem",
+          "image": ""
+        },
+        {
+          "name": "Churros",
+          "price": 18,
+          "description": "Ciastka smażone z sosem czekoladowym",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Kamil", "rating": 4, "comment": "Fajitas super, ale głośna muzyka." }
+        {
+          "user": "Kamil",
+          "rating": 4,
+          "comment": "Fajitas super, ale głośna muzyka."
+        }
       ]
     },
     {
@@ -540,13 +1157,33 @@
       "rating": 4.5,
       "address": "Robotnicza 1",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Leniwe", "price": 16, "description": "Kluski z serem, bułka tarta, cukier" },
-        { "name": "Zupa Ogórkowa", "price": 8, "description": "Zupa na żeberkach" },
-        { "name": "Kotlet Mielony", "price": 20, "description": "Z ziemniakami i buraczkami" }
+        {
+          "name": "Leniwe",
+          "price": 16,
+          "description": "Kluski z serem, bułka tarta, cukier",
+          "image": ""
+        },
+        {
+          "name": "Zupa Ogórkowa",
+          "price": 8,
+          "description": "Zupa na żeberkach",
+          "image": ""
+        },
+        {
+          "name": "Kotlet Mielony",
+          "price": 20,
+          "description": "Z ziemniakami i buraczkami",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Student", "rating": 5, "comment": "Tanio i smacznie, jak w domu." }
+        {
+          "user": "Student",
+          "rating": 5,
+          "comment": "Tanio i smacznie, jak w domu."
+        }
       ]
     },
     {
@@ -556,10 +1193,26 @@
       "rating": 4.0,
       "address": "Smocza 9",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Kurczak w cieście", "price": 28, "description": "Kawałki kurczaka w cieście z ryżem" },
-        { "name": "Kaczka po pekińsku", "price": 55, "description": "Chrupiąca kaczka z plackami" },
-        { "name": "Ryż smażony", "price": 22, "description": "Ryż z jajkiem i warzywami" }
+        {
+          "name": "Kurczak w cieście",
+          "price": 28,
+          "description": "Kawałki kurczaka w cieście z ryżem",
+          "image": ""
+        },
+        {
+          "name": "Kaczka po pekińsku",
+          "price": 55,
+          "description": "Chrupiąca kaczka z plackami",
+          "image": ""
+        },
+        {
+          "name": "Ryż smażony",
+          "price": 22,
+          "description": "Ryż z jajkiem i warzywami",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Tomek", "rating": 3, "comment": "Trochę za tłuste." },
@@ -573,13 +1226,33 @@
       "rating": 4.7,
       "address": "Winna 12",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Deska Serów", "price": 60, "description": "Wybór serów francuskich i włoskich" },
-        { "name": "Oliwki Marynowane", "price": 15, "description": "Mix oliwek z ziołami" },
-        { "name": "Bruschetta", "price": 20, "description": "Grzanki z pomidorami i bazylią" }
+        {
+          "name": "Deska Serów",
+          "price": 60,
+          "description": "Wybór serów francuskich i włoskich",
+          "image": ""
+        },
+        {
+          "name": "Oliwki Marynowane",
+          "price": 15,
+          "description": "Mix oliwek z ziołami",
+          "image": ""
+        },
+        {
+          "name": "Bruschetta",
+          "price": 20,
+          "description": "Grzanki z pomidorami i bazylią",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Koneser", "rating": 5, "comment": "Świetny wybór win i przekąsek." }
+        {
+          "user": "Koneser",
+          "rating": 5,
+          "comment": "Świetny wybór win i przekąsek."
+        }
       ]
     },
     {
@@ -589,13 +1262,33 @@
       "rating": 4.4,
       "address": "Kebabowa 3",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Pita Falafel", "price": 20, "description": "Kulki z ciecierzycy w chlebie pita" },
-        { "name": "Talerz Arabski", "price": 35, "description": "Hummus, babaganoush, falafel, sałatka" },
-        { "name": "Baklava", "price": 10, "description": "Słodkie ciastko z orzechami" }
+        {
+          "name": "Pita Falafel",
+          "price": 20,
+          "description": "Kulki z ciecierzycy w chlebie pita",
+          "image": ""
+        },
+        {
+          "name": "Talerz Arabski",
+          "price": 35,
+          "description": "Hummus, babaganoush, falafel, sałatka",
+          "image": ""
+        },
+        {
+          "name": "Baklava",
+          "price": 10,
+          "description": "Słodkie ciastko z orzechami",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Weganin", "rating": 5, "comment": "Najlepszy falafel w mieście." }
+        {
+          "user": "Weganin",
+          "rating": 5,
+          "comment": "Najlepszy falafel w mieście."
+        }
       ]
     },
     {
@@ -605,10 +1298,26 @@
       "rating": 4.6,
       "address": "Jeziorna 5",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Pstrąg z pieca", "price": 40, "description": "Cały pstrąg z masłem czosnkowym" },
-        { "name": "Sandacz w sosie koperkowym", "price": 48, "description": "Filet z sandacza z ziemniakami" },
-        { "name": "Zupa Rakowa", "price": 28, "description": "Kremowa zupa z szyjkami rakowymi" }
+        {
+          "name": "Pstrąg z pieca",
+          "price": 40,
+          "description": "Cały pstrąg z masłem czosnkowym",
+          "image": ""
+        },
+        {
+          "name": "Sandacz w sosie koperkowym",
+          "price": 48,
+          "description": "Filet z sandacza z ziemniakami",
+          "image": ""
+        },
+        {
+          "name": "Zupa Rakowa",
+          "price": 28,
+          "description": "Kremowa zupa z szyjkami rakowymi",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Ryszard", "rating": 5, "comment": "Ryba pierwsza klasa." }
@@ -621,13 +1330,33 @@
       "rating": 4.8,
       "address": "Południowa 2",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Marinara", "price": 28, "description": "Pomidory San Marzano, czosnek, oregano" },
-        { "name": "Capricciosa", "price": 36, "description": "Szynka, pieczarki, karczochy, oliwki" },
-        { "name": "Calzone", "price": 38, "description": "Pizza pieróg z salami i ricottą" }
+        {
+          "name": "Marinara",
+          "price": 28,
+          "description": "Pomidory San Marzano, czosnek, oregano",
+          "image": ""
+        },
+        {
+          "name": "Capricciosa",
+          "price": 36,
+          "description": "Szynka, pieczarki, karczochy, oliwki",
+          "image": ""
+        },
+        {
+          "name": "Calzone",
+          "price": 38,
+          "description": "Pizza pieróg z salami i ricottą",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Włoch", "rating": 5, "comment": "Prawdziwa neapolitańska pizza." }
+        {
+          "user": "Włoch",
+          "rating": 5,
+          "comment": "Prawdziwa neapolitańska pizza."
+        }
       ]
     },
     {
@@ -637,13 +1366,33 @@
       "rating": 4.5,
       "address": "Chorwacka 7",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Cevapcici", "price": 34, "description": "Wałeczki mięsne z grilla z cebulą" },
-        { "name": "Pleskavica", "price": 36, "description": "Kotlet bałkański z serem w środku" },
-        { "name": "Szopska Sałatka", "price": 22, "description": "Pomidor, ogórek, papryka, ser solankowy" }
+        {
+          "name": "Cevapcici",
+          "price": 34,
+          "description": "Wałeczki mięsne z grilla z cebulą",
+          "image": ""
+        },
+        {
+          "name": "Pleskavica",
+          "price": 36,
+          "description": "Kotlet bałkański z serem w środku",
+          "image": ""
+        },
+        {
+          "name": "Szopska Sałatka",
+          "price": 22,
+          "description": "Pomidor, ogórek, papryka, ser solankowy",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Marta", "rating": 4, "comment": "Mięso pyszne, duże porcje." }
+        {
+          "user": "Marta",
+          "rating": 4,
+          "comment": "Mięso pyszne, duże porcje."
+        }
       ]
     },
     {
@@ -653,13 +1402,33 @@
       "rating": 4.9,
       "address": "Słodka 1",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Gorąca Czekolada", "price": 18, "description": "Gęsta czekolada z bitą śmietaną" },
-        { "name": "Fondue Czekoladowe", "price": 45, "description": "Dla 2 osób, owoce do maczania" },
-        { "name": "Tort Sachera", "price": 20, "description": "Ciasto czekoladowe z konfiturą morelową" }
+        {
+          "name": "Gorąca Czekolada",
+          "price": 18,
+          "description": "Gęsta czekolada z bitą śmietaną",
+          "image": ""
+        },
+        {
+          "name": "Fondue Czekoladowe",
+          "price": 45,
+          "description": "Dla 2 osób, owoce do maczania",
+          "image": ""
+        },
+        {
+          "name": "Tort Sachera",
+          "price": 20,
+          "description": "Ciasto czekoladowe z konfiturą morelową",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Łasuch", "rating": 5, "comment": "Raj dla miłośników czekolady." }
+        {
+          "user": "Łasuch",
+          "rating": 5,
+          "comment": "Raj dla miłośników czekolady."
+        }
       ]
     },
     {
@@ -669,13 +1438,33 @@
       "rating": 4.3,
       "address": "Zielona 15",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Burger z Kaszy Jaglanej", "price": 28, "description": "Kotlet jaglany, pomidor, rukola" },
-        { "name": "Frytki z Batatów", "price": 16, "description": "Słodkie frytki z sosem wegańskim" },
-        { "name": "Lemoniada", "price": 12, "description": "Domowa lemoniada cytrynowa" }
+        {
+          "name": "Burger z Kaszy Jaglanej",
+          "price": 28,
+          "description": "Kotlet jaglany, pomidor, rukola",
+          "image": ""
+        },
+        {
+          "name": "Frytki z Batatów",
+          "price": 16,
+          "description": "Słodkie frytki z sosem wegańskim",
+          "image": ""
+        },
+        {
+          "name": "Lemoniada",
+          "price": 12,
+          "description": "Domowa lemoniada cytrynowa",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Klara", "rating": 4, "comment": "Dobre, ale bułka się rozpadała." }
+        {
+          "user": "Klara",
+          "rating": 4,
+          "comment": "Dobre, ale bułka się rozpadała."
+        }
       ]
     },
     {
@@ -685,13 +1474,33 @@
       "rating": 4.8,
       "address": "Zamkowa 1",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Tatar z polędwicy", "price": 55, "description": "Wołowina, żółtko, pikle, grzyby" },
-        { "name": "Kaczka Confit", "price": 68, "description": "Udko kaczki z modrą kapustą" },
-        { "name": "Beza Pavlova", "price": 28, "description": "Beza z owocami i mascarpone" }
+        {
+          "name": "Tatar z polędwicy",
+          "price": 55,
+          "description": "Wołowina, żółtko, pikle, grzyby",
+          "image": ""
+        },
+        {
+          "name": "Kaczka Confit",
+          "price": 68,
+          "description": "Udko kaczki z modrą kapustą",
+          "image": ""
+        },
+        {
+          "name": "Beza Pavlova",
+          "price": 28,
+          "description": "Beza z owocami i mascarpone",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Elegant", "rating": 5, "comment": "Wysoki poziom, idealne na randkę." }
+        {
+          "user": "Elegant",
+          "rating": 5,
+          "comment": "Wysoki poziom, idealne na randkę."
+        }
       ]
     },
     {
@@ -701,13 +1510,33 @@
       "rating": 4.4,
       "address": "Zupna 4",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Krem z dyni", "price": 16, "description": "Z pestkami dyni i oliwą" },
-        { "name": "Grochówka", "price": 18, "description": "Gęsta zupa z boczkiem" },
-        { "name": "Chłodnik Litewski", "price": 17, "description": "Zupa na zimno z buraków i kefiru" }
+        {
+          "name": "Krem z dyni",
+          "price": 16,
+          "description": "Z pestkami dyni i oliwą",
+          "image": ""
+        },
+        {
+          "name": "Grochówka",
+          "price": 18,
+          "description": "Gęsta zupa z boczkiem",
+          "image": ""
+        },
+        {
+          "name": "Chłodnik Litewski",
+          "price": 17,
+          "description": "Zupa na zimno z buraków i kefiru",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Zupomaniak", "rating": 4, "comment": "Świetne zupy na lunch." }
+        {
+          "user": "Zupomaniak",
+          "rating": 4,
+          "comment": "Świetne zupy na lunch."
+        }
       ]
     },
     {
@@ -717,13 +1546,33 @@
       "rating": 4.2,
       "address": "Eko 9",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Sałatka z komosą", "price": 30, "description": "Quinoa, warzywa, dressing cytrynowy" },
-        { "name": "Wrap pełnoziarnisty", "price": 26, "description": "Kurczak zagrodowy, warzywa" },
-        { "name": "Sok Wyciskany", "price": 18, "description": "Marchew, jabłko, seler" }
+        {
+          "name": "Sałatka z komosą",
+          "price": 30,
+          "description": "Quinoa, warzywa, dressing cytrynowy",
+          "image": ""
+        },
+        {
+          "name": "Wrap pełnoziarnisty",
+          "price": 26,
+          "description": "Kurczak zagrodowy, warzywa",
+          "image": ""
+        },
+        {
+          "name": "Sok Wyciskany",
+          "price": 18,
+          "description": "Marchew, jabłko, seler",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "EkoMarta", "rating": 4, "comment": "Zdrowo, ale ceny wysokie." }
+        {
+          "user": "EkoMarta",
+          "rating": 4,
+          "comment": "Zdrowo, ale ceny wysokie."
+        }
       ]
     },
     {
@@ -733,13 +1582,33 @@
       "rating": 3.7,
       "address": "Osiedlowa 10",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Pizza Kebab", "price": 38, "description": "Mięso kebab, cebula, sos czosnkowy" },
-        { "name": "Pizza Farmerska", "price": 40, "description": "Boczek, kiełbasa, cebula, kukurydza" },
-        { "name": "Sosy do pizzy", "price": 5, "description": "Czosnkowy lub pomidorowy" }
+        {
+          "name": "Pizza Kebab",
+          "price": 38,
+          "description": "Mięso kebab, cebula, sos czosnkowy",
+          "image": ""
+        },
+        {
+          "name": "Pizza Farmerska",
+          "price": 40,
+          "description": "Boczek, kiełbasa, cebula, kukurydza",
+          "image": ""
+        },
+        {
+          "name": "Sosy do pizzy",
+          "price": 5,
+          "description": "Czosnkowy lub pomidorowy",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Głodomor", "rating": 3, "comment": "Dużo składników, ale ciasto gumowate." },
+        {
+          "user": "Głodomor",
+          "rating": 3,
+          "comment": "Dużo składników, ale ciasto gumowate."
+        },
         { "user": "Sąsiad", "rating": 4, "comment": "Dobra na imprezę." }
       ]
     },
@@ -750,13 +1619,33 @@
       "rating": 4.4,
       "address": "Róg 2",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Lunch Box", "price": 45, "description": "Zestaw 12 kawałków sushi z zupą" },
-        { "name": "Tempura Krewetki", "price": 30, "description": "4 krewetki w tempurze" },
-        { "name": "Herbata Jaśminowa", "price": 10, "description": "Dzbanek herbaty" }
+        {
+          "name": "Lunch Box",
+          "price": 45,
+          "description": "Zestaw 12 kawałków sushi z zupą",
+          "image": ""
+        },
+        {
+          "name": "Tempura Krewetki",
+          "price": 30,
+          "description": "4 krewetki w tempurze",
+          "image": ""
+        },
+        {
+          "name": "Herbata Jaśminowa",
+          "price": 10,
+          "description": "Dzbanek herbaty",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Pracownik", "rating": 5, "comment": "Szybki i smaczny lunch." }
+        {
+          "user": "Pracownik",
+          "rating": 5,
+          "comment": "Szybki i smaczny lunch."
+        }
       ]
     },
     {
@@ -766,13 +1655,33 @@
       "rating": 4.6,
       "address": "Wschodnia 8",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Chaczapuri Megrelskie", "price": 36, "description": "Placek z podwójnym serem" },
-        { "name": "Szaszłyk wieprzowy", "price": 38, "description": "Marynowane mięso z grilla" },
-        { "name": "Lemoniada Gruzińska", "price": 14, "description": "Smak gruszkowy lub estragonowy" }
+        {
+          "name": "Chaczapuri Megrelskie",
+          "price": 36,
+          "description": "Placek z podwójnym serem",
+          "image": ""
+        },
+        {
+          "name": "Szaszłyk wieprzowy",
+          "price": 38,
+          "description": "Marynowane mięso z grilla",
+          "image": ""
+        },
+        {
+          "name": "Lemoniada Gruzińska",
+          "price": 14,
+          "description": "Smak gruszkowy lub estragonowy",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Podróżnik", "rating": 5, "comment": "Pyszne jedzenie i wino." }
+        {
+          "user": "Podróżnik",
+          "rating": 5,
+          "comment": "Pyszne jedzenie i wino."
+        }
       ]
     },
     {
@@ -782,13 +1691,33 @@
       "rating": 4.0,
       "address": "Mała 3",
       "parkingLot": false,
+      "image": "",
       "menu": [
-        { "name": "Krokiety z barszczem", "price": 22, "description": "Krokiety z kapustą i grzybami" },
-        { "name": "Gołąbki", "price": 24, "description": "W sosie pomidorowym z ziemniakami" },
-        { "name": "Naleśniki z serem", "price": 18, "description": "Na słodko ze śmietaną" }
+        {
+          "name": "Krokiety z barszczem",
+          "price": 22,
+          "description": "Krokiety z kapustą i grzybami",
+          "image": ""
+        },
+        {
+          "name": "Gołąbki",
+          "price": 24,
+          "description": "W sosie pomidorowym z ziemniakami",
+          "image": ""
+        },
+        {
+          "name": "Naleśniki z serem",
+          "price": 18,
+          "description": "Na słodko ze śmietaną",
+          "image": ""
+        }
       ],
       "reviews": [
-        { "user": "Stały Klient", "rating": 4, "comment": "Dobre domowe obiady." }
+        {
+          "user": "Stały Klient",
+          "rating": 4,
+          "comment": "Dobre domowe obiady."
+        }
       ]
     },
     {
@@ -798,10 +1727,26 @@
       "rating": 4.5,
       "address": "Zachodnia 6",
       "parkingLot": true,
+      "image": "",
       "menu": [
-        { "name": "Burrito Wołowe", "price": 32, "description": "Ryż, fasola, wołowina, salsa" },
-        { "name": "Tacos Krewetka", "price": 34, "description": "Krewetki, mango salsa, limonka" },
-        { "name": "Guacamole", "price": 24, "description": "Pasta z awokado z nachosami" }
+        {
+          "name": "Burrito Wołowe",
+          "price": 32,
+          "description": "Ryż, fasola, wołowina, salsa",
+          "image": ""
+        },
+        {
+          "name": "Tacos Krewetka",
+          "price": 34,
+          "description": "Krewetki, mango salsa, limonka",
+          "image": ""
+        },
+        {
+          "name": "Guacamole",
+          "price": 24,
+          "description": "Pasta z awokado z nachosami",
+          "image": ""
+        }
       ],
       "reviews": [
         { "user": "Ola", "rating": 5, "comment": "Pikantne i sycące." }

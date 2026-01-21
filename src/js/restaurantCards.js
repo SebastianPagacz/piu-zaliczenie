@@ -1,5 +1,7 @@
 export function createRestaurantCard(restaurant) {
-    const imageUrl = `https://placehold.co/400x400?text=${restaurant.restaurantName.replace(/ /g, '+')}&font=montserrat`;
+    const imageUrl = restaurant.image
+        ? `src/images/restaurants/${restaurant.image}`
+        : `https://placehold.co/400x400?text=${restaurant.restaurantName.replace(/ /g, '+')}`;
 
     const parkingIcon = restaurant.parkingLot
         ? '<span class="icon" title="Parking dostępny">🚗</span>'

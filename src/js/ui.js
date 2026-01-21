@@ -83,7 +83,9 @@ export function renderRestaurantPage(restaurant, container) {
 
     const menuHtml = createMenuHtml(restaurant.menu, restaurant.id);
     const reviewsHtml = createReviewsHtml(restaurant.reviews);
-    const imageUrl = `https://placehold.co/800x400?text=${restaurant.restaurantName.replace(/ /g, '+')}&font=montserrat`;
+    const imageUrl = restaurant.image
+        ? `src/images/restaurants/${restaurant.image}`
+        : `https://placehold.co/800x400?text=${restaurant.restaurantName}`;
 
     container.innerHTML = `
         <div class="details-wrapper">
@@ -130,17 +132,25 @@ function createMenuHtml(menuItems, restaurantId) {
         .map((item, index) => {
             const uniqueId = `res-${restaurantId}-item-${index}`;
 
+            const dishImage = item.image
+                ? `src/images/menu/${item.image}`
+                : 'https://placehold.co/100x100?text=Food';
+
             return `
         <div class="menu-item-card">
+            <div class="menu-img-container">
+                <img src="${dishImage}" alt="${item.name}" class="menu-item-img">
+            </div>
+
             <div class="menu-info">
                 <h3 class="menu-name">${item.name}</h3>
                 <p class="menu-desc">${item.description || 'Brak opisu'}</p>
                 <div class="menu-price">${item.price} PLN</div>
             </div>
+            
             <div class="menu-actions">
-                <input type="number" min="1" value="1" class="qty-input" id="qty-${uniqueId}">
-                
-                <button class="add-to-cart-btn" 
+               <input type="number" min="1" value="1" class="qty-input" id="qty-${uniqueId}">
+               <button class="add-to-cart-btn" 
                     data-id="${uniqueId}" 
                     data-name="${item.name}" 
                     data-price="${item.price}">
