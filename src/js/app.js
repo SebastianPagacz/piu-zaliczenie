@@ -8,9 +8,11 @@ import {
 import { debounce, getRestaurantTypes } from './helpers.js';
 import { store } from './store.js';
 import { initTheme } from './theme.js';
+import { updateCartBadge } from './ui.js';
 
 const init = async () => {
     initTheme();
+    updateCartBadge();
     const restaurantsContainer = document.getElementById('restaurant-list');
     const restaurantSearchBar = document.getElementById('restaurant-search');
 
@@ -26,6 +28,7 @@ const init = async () => {
         store.subscribe((state) => {
             const filteredData = filterRestaurants(restaurantData, state);
             renderRestaurantsData(filteredData, restaurantsContainer);
+            updateCartBadge();
         });
 
         renderTypesSelect(
