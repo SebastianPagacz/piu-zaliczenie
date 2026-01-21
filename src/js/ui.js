@@ -37,8 +37,11 @@ export function renderRestaurantPage(restaurant, container) {
     const imageUrl = `https://placehold.co/800x400?text=${restaurant.restaurantName.replace(/ /g, '+')}&font=montserrat`;
 
     container.innerHTML = `
-        <div class="details-wrapper">
-            <a href="index.html" class="back-link">← Wróć do listy</a>
+    <div class="details-wrapper">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+            <a href="index.html" class="back-link" style="margin-bottom: 0;">← Wróć do listy</a>
+            <button id="theme-toggle" class="theme-toggle-btn">🌙 Ciemny</button>
+        </div>
 
             <header class="details-header">
                 <div class="details-image-box">

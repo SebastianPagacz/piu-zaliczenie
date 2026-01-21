@@ -63,7 +63,16 @@ h3,
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   display: flex;
   gap: 1rem;
-  align-items: center;
+  border: 1px solid transparent;
+  transition:
+    background-color 0.3s,
+    border-color 0.3s;
+}
+
+body.dark-mode .filter-container {
+  background-color: var(--bg-secondary);
+  border: 1px solid #404040;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .search-bar {
@@ -74,11 +83,18 @@ h3,
   outline: none;
   border-radius: 30px;
   background-color: transparent;
+
+  color: var(--text-main);
+}
+
+.search-bar::placeholder {
+  color: var(--text-light);
+  opacity: 0.8;
 }
 
 .type-select {
   border: none;
-  background-color: #f1f2f6;
+  background-color: var(--bg-secondary);
   padding: 12px 24px;
   border-radius: 30px;
   font-weight: 600;
@@ -86,10 +102,26 @@ h3,
   cursor: pointer;
   outline: none;
   transition: background-color 0.2s;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .type-select:hover {
-  background-color: #e2e6ea;
+  filter: brightness(0.95);
+}
+
+body.dark-mode .type-select {
+  background-color: #121212;
+
+  border: 1px solid #333333;
+
+  color: #e2e8f0;
+}
+
+body.dark-mode .type-select:hover {
+  background-color: #1a1a1a;
 }
 
 .restaurant-grid {
@@ -318,7 +350,7 @@ h3,
 }
 
 .meta-badge.category {
-  background-color: #e2e8f0;
+  background-color: var(--bg-secondary);
   color: var(--text-main);
 }
 
@@ -335,7 +367,7 @@ h3,
 .divider {
   border: 0;
   height: 1px;
-  background-color: #e2e8f0;
+  background-color: var(--bg-secondary);
   margin: 2rem 0;
 }
 
@@ -356,13 +388,13 @@ h3,
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border: 1px solid #f1f5f9;
+  border: 1px solid var(--bg-secondary);
   border-radius: 12px;
   transition: background-color 0.2s;
 }
 
 .menu-item-card:hover {
-  background-color: #f8fafc;
+  background-color: var(--bg-secondary);
 }
 
 .menu-info {
@@ -394,7 +426,7 @@ h3,
 }
 
 .review-item {
-  background-color: #f8fafc;
+  background-color: var(--bg-secondary);
   padding: 1.5rem;
   border-radius: 12px;
 }
