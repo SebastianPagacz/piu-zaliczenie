@@ -7,25 +7,25 @@
       "rating": 4.5,
       "address": "Kolna 18",
       "parkingLot": true,
-      "image": "",
+      "image": "pizza_italiana.png",
       "menu": [
         {
           "name": "Margherita",
           "price": 32,
           "description": "Sos pomidorowy, mozzarella, bazylia",
-          "image": ""
+          "image": "pizza_italiana_margherita.png"
         },
         {
           "name": "Diavola",
           "price": 38,
           "description": "Salami piccante, chili, mozzarella",
-          "image": ""
+          "image": "pizza_italiana_diavola.png"
         },
         {
           "name": "Carbonara",
           "price": 42,
           "description": "Spaghetti, guanciale, jajko, pecorino",
-          "image": ""
+          "image": "pizza_italiana_carbonara.png"
         }
       ],
       "reviews": [
@@ -48,25 +48,25 @@
       "rating": 4.8,
       "address": "Rynek Główny 5",
       "parkingLot": false,
-      "image": "",
+      "image": "pierogarnia_u_zosi.png",
       "menu": [
         {
           "name": "Pierogi Ruskie",
           "price": 28,
           "description": "Twaróg, ziemniaki, cebulka",
-          "image": ""
+          "image": "pierogarnia_u_zosi_ruskie.png"
         },
         {
           "name": "Pierogi z Mięsem",
           "price": 30,
           "description": "Mięso wieprzowo-wołowe, okrasa",
-          "image": ""
+          "image": "pierogarnia_u_zosi_miesem.png"
         },
         {
           "name": "Barszcz Czerwony",
           "price": 15,
           "description": "Tradycyjny barszcz na zakwasie",
-          "image": ""
+          "image": "pierogarnia_u_zosi_barszcz.png"
         }
       ],
       "reviews": [
@@ -80,25 +80,25 @@
       "rating": 4.6,
       "address": "Długa 12",
       "parkingLot": true,
-      "image": "",
+      "image": "tokyo_sushi.png",
       "menu": [
         {
           "name": "Zestaw Nigiri",
           "price": 55,
           "description": "6 sztuk nigiri z łososiem i tuńczykiem",
-          "image": ""
+          "image": "tokyo_sushi_nigiri.png"
         },
         {
           "name": "California Roll",
           "price": 35,
           "description": "Krab, awokado, ogórek, sezam",
-          "image": ""
+          "image": "tokyo_sushi_roll.png"
         },
         {
           "name": "Miso Soup",
           "price": 18,
           "description": "Zupa z pasty sojowej z tofu i wakame",
-          "image": ""
+          "image": "tokyo_sushi_miso.png"
         }
       ],
       "reviews": [
@@ -121,25 +121,25 @@
       "rating": 4.3,
       "address": "Lipowa 44",
       "parkingLot": true,
-      "image": "",
+      "image": "burger_house.png",
       "menu": [
         {
           "name": "Classic Burger",
           "price": 34,
           "description": "Wołowina, sałata, pomidor, ogórek, sos",
-          "image": ""
+          "image": "burger_house_classic.png"
         },
         {
           "name": "Cheeseburger",
           "price": 36,
           "description": "Wołowina, podwójny cheddar, cebula",
-          "image": ""
+          "image": "burger_house_cheese.png"
         },
         {
           "name": "Frytki Belgijskie",
           "price": 14,
           "description": "Grubo krojone frytki z majonezem",
-          "image": ""
+          "image": "burger_house_belgijskie.png"
         }
       ],
       "reviews": [
@@ -157,25 +157,25 @@
       "rating": 4.7,
       "address": "Szewska 2",
       "parkingLot": false,
-      "image": "",
+      "image": "tajski_wok.png",
       "menu": [
         {
           "name": "Pad Thai",
           "price": 42,
           "description": "Makaron ryżowy, krewetki, orzeszki, tamaryndowiec",
-          "image": ""
+          "image": "tajski_wok_pad.png"
         },
         {
           "name": "Green Curry",
           "price": 39,
           "description": "Curry zielone z kurczakiem i mlekiem kokosowym",
-          "image": ""
+          "image": "tajski_wok_curry.png"
         },
         {
           "name": "Tom Yum",
           "price": 25,
           "description": "Ostra zupa z krewetkami i trawą cytrynową",
-          "image": ""
+          "image": "tajski_wok_yum.png"
         }
       ],
       "reviews": [
@@ -193,25 +193,25 @@
       "rating": 4.4,
       "address": "Ogrodowa 8",
       "parkingLot": true,
-      "image": "",
+      "image": "el_mariachi.png",
       "menu": [
         {
           "name": "Tacos al Pastor",
           "price": 32,
           "description": "3 sztuki, wieprzowina, ananas, kolendra",
-          "image": ""
+          "image": "el_mariachi_tacos.png"
         },
         {
           "name": "Quesadilla",
           "price": 29,
           "description": "Tortilla z serem i kurczakiem",
-          "image": ""
+          "image": "el_mariachi_quesa.png"
         },
         {
           "name": "Nachos Grande",
           "price": 25,
           "description": "Nachosy zapiekane z serem i jalapeño",
-          "image": ""
+          "image": "el_mariachi_nachos.png"
         }
       ],
       "reviews": [
@@ -225,25 +225,25 @@
       "rating": 4.9,
       "address": "Krupnicza 10",
       "parkingLot": false,
-      "image": "",
+      "image": "green_vege.png",
       "menu": [
         {
           "name": "Hummus Plate",
           "price": 26,
           "description": "Hummus klasyczny, warzywa, pita",
-          "image": ""
+          "image": "green_vege_hummus.png"
         },
         {
           "name": "Beyond Burger",
           "price": 45,
           "description": "Roślinny burger, wegański ser, pikle",
-          "image": ""
+          "image": "green_vege_burger.png"
         },
         {
           "name": "Falafel Wrap",
           "price": 24,
           "description": "Falafel, świeże warzywa, sos tahini",
-          "image": ""
+          "image": "green_vege_falafel.png"
         }
       ],
       "reviews": [
@@ -261,25 +261,25 @@
       "rating": 4.5,
       "address": "Starowiślna 15",
       "parkingLot": true,
-      "image": "",
+      "image": "bombay_spice.png",
       "menu": [
         {
           "name": "Butter Chicken",
           "price": 38,
           "description": "Kurczak w sosie pomidorowo-maślanym",
-          "image": ""
+          "image": "bombay_spice_chicken.png"
         },
         {
           "name": "Garlic Naan",
           "price": 12,
           "description": "Chlebek indyjski z czosnkiem",
-          "image": ""
+          "image": "bombay_spice_garlic.png"
         },
         {
           "name": "Mango Lassi",
           "price": 16,
           "description": "Napój jogurtowy z mango",
-          "image": ""
+          "image": "bombay_spice_mango.png"
         }
       ],
       "reviews": [
@@ -298,25 +298,25 @@
       "rating": 4.6,
       "address": "Francuska 3",
       "parkingLot": false,
-      "image": "",
+      "image": "le_croissant.png",
       "menu": [
         {
           "name": "Zupa Cebulowa",
           "price": 22,
           "description": "Zupa z grzanką i serem gruyère",
-          "image": ""
+          "image": "le_croissant_zupa.png"
         },
         {
           "name": "Quiche Lorraine",
           "price": 28,
           "description": "Tarta z boczkiem i śmietaną",
-          "image": ""
+          "image": "le_croissant_quiche.png"
         },
         {
           "name": "Crème Brûlée",
           "price": 20,
           "description": "Deser z palonym cukrem",
-          "image": ""
+          "image": "le_croissant_creme.png"
         }
       ],
       "reviews": [
@@ -330,25 +330,25 @@
       "rating": 4.2,
       "address": "Polna 50",
       "parkingLot": true,
-      "image": "",
+      "image": "schabowy_gigant.png",
       "menu": [
         {
           "name": "Kotlet Schabowy XXL",
           "price": 35,
           "description": "Wielki schabowy z ziemniakami i kapustą",
-          "image": ""
+          "image": "schabowy_gigant_kotlet.png"
         },
         {
           "name": "Rosół",
           "price": 14,
           "description": "Domowy rosół z makaronem",
-          "image": ""
+          "image": "schabowy_gigant_rosol.png"
         },
         {
           "name": "Kompot",
           "price": 6,
           "description": "Kompot owocowy sezonowy",
-          "image": ""
+          "image": "schabowy_gigant_kompot.png"
         }
       ],
       "reviews": [
@@ -366,25 +366,25 @@
       "rating": 4.7,
       "address": "Włoska 7",
       "parkingLot": true,
-      "image": "",
+      "image": "pasta_fresca.png",
       "menu": [
         {
           "name": "Tagliatelle Bolognese",
           "price": 36,
           "description": "Domowy makaron z sosem mięsnym",
-          "image": ""
+          "image": "pasta_fresca_tagiatelle.png"
         },
         {
           "name": "Ravioli ze Szpinakiem",
           "price": 34,
           "description": "Pierożki z ricottą i szpinakiem",
-          "image": ""
+          "image": "pasta_fresca_ravioli.png"
         },
         {
           "name": "Tiramisu",
           "price": 22,
           "description": "Klasyczny włoski deser",
-          "image": ""
+          "image": "pasta_fresca_tiramisu.png"
         }
       ],
       "reviews": [
@@ -403,25 +403,25 @@
       "rating": 3.9,
       "address": "Dworcowa 1",
       "parkingLot": false,
-      "image": "",
+      "image": "kebab_king.png",
       "menu": [
         {
           "name": "Kebab w bułce",
           "price": 20,
           "description": "Baranina, surówki, sos mieszany",
-          "image": ""
+          "image": "kebab_king_bulka.png"
         },
         {
           "name": "Kebab Rollo",
           "price": 22,
           "description": "Duże rollo z kurczakiem",
-          "image": ""
+          "image": "kebab_king_rollo.png"
         },
         {
           "name": "Frytki",
           "price": 10,
           "description": "Porcja frytek",
-          "image": ""
+          "image": "kebab_king_frytki.png"
         }
       ],
       "reviews": [
@@ -436,25 +436,25 @@
       "rating": 4.8,
       "address": "Miodowa 9",
       "parkingLot": false,
-      "image": "",
+      "image": "slodki_kacik.png",
       "menu": [
         {
           "name": "Sernik Wiedeński",
           "price": 18,
           "description": "Puszysty sernik z czekoladą",
-          "image": ""
+          "image": "slodki_kacik_sernik.png"
         },
         {
           "name": "Cappuccino",
           "price": 14,
           "description": "Kawa ze spienionym mlekiem",
-          "image": ""
+          "image": "slodki_kacik_cappu.png"
         },
         {
           "name": "Szarlotka na ciepło",
           "price": 19,
           "description": "Z lodami i bitą śmietaną",
-          "image": ""
+          "image": "slodki_kacik_szarlotka.png"
         }
       ],
       "reviews": [
@@ -472,25 +472,25 @@
       "rating": 4.6,
       "address": "Prosta 100",
       "parkingLot": true,
-      "image": "",
+      "image": "steak_house.png",
       "menu": [
         {
           "name": "Ribeye Steak",
           "price": 95,
           "description": "Antrykot wołowy sezonowany 30 dni",
-          "image": ""
+          "image": "steak_house_ribeye.png"
         },
         {
           "name": "New York Strip",
           "price": 85,
           "description": "Rostbef wołowy z grilla",
-          "image": ""
+          "image": "steak_house_strip.png"
         },
         {
           "name": "Coleslaw",
           "price": 12,
           "description": "Surówka z białej kapusty",
-          "image": ""
+          "image": "steak_house_coleslaw.png"
         }
       ],
       "reviews": [
@@ -504,25 +504,25 @@
       "rating": 4.5,
       "address": "Olimpijska 4",
       "parkingLot": true,
-      "image": "",
+      "image": "greek_taverna.png",
       "menu": [
         {
           "name": "Sałatka Grecka",
           "price": 28,
           "description": "Feta, oliwki, pomidor, ogórek, oregano",
-          "image": ""
+          "image": "greek_taverna_salatka.png"
         },
         {
           "name": "Souvlaki",
           "price": 36,
           "description": "Szaszłyki z kurczaka z pitą",
-          "image": ""
+          "image": "greek_taverna_souvlaki.png"
         },
         {
           "name": "Musaka",
           "price": 40,
           "description": "Zapiekanka z bakłażanem i mięsem mielonym",
-          "image": ""
+          "image": "greek_taverna_musaka.png"
         }
       ],
       "reviews": [
@@ -540,25 +540,25 @@
       "rating": 4.7,
       "address": "Kaukaska 2",
       "parkingLot": false,
-      "image": "",
+      "image": "smaki_gruzji.png",
       "menu": [
         {
           "name": "Chinkali",
           "price": 30,
           "description": "5 sztuk pierogów z rosołem w środku",
-          "image": ""
+          "image": "smaki_gruzji_chinkali.png"
         },
         {
           "name": "Chaczapuri Adżarskie",
           "price": 34,
           "description": "Placek z serem i jajkiem",
-          "image": ""
+          "image": "smaki_gruzji_chacza.png"
         },
         {
           "name": "Bakłażan z orzechami",
           "price": 22,
           "description": "Roladki z pastą orzechową",
-          "image": ""
+          "image": "smaki_gruzji_baklazan.png"
         }
       ],
       "reviews": [
@@ -572,25 +572,25 @@
       "rating": 4.3,
       "address": "Portowa 1",
       "parkingLot": true,
-      "image": "",
+      "image": "rybka_u_wladka.png",
       "menu": [
         {
           "name": "Dorsz Smażony",
           "price": 42,
           "description": "Filet z dorsza z frytkami i surówką",
-          "image": ""
+          "image": "rybka_u_wladka_dorsz.png"
         },
         {
           "name": "Zupa Rybna",
           "price": 20,
           "description": "Pikantna zupa z kawałkami ryb",
-          "image": ""
+          "image": "rybka_u_wladka_zupa.png"
         },
         {
           "name": "Tatar z Łososia",
           "price": 38,
           "description": "Siekany łosoś z dodatkami",
-          "image": ""
+          "image": "rybka_u_wladka_tatar.png"
         }
       ],
       "reviews": [
@@ -604,25 +604,25 @@
       "rating": 4.5,
       "address": "Poranna 8",
       "parkingLot": false,
-      "image": "",
+      "image": "pancake_world.png",
       "menu": [
         {
           "name": "Pankejki z Syropem",
           "price": 26,
           "description": "Amerykańskie naleśniki z syropem klonowym",
-          "image": ""
+          "image": "pancake_world_pankejki.png"
         },
         {
           "name": "Jajecznica na maśle",
           "price": 18,
           "description": "Z 3 jaj z pieczywem",
-          "image": ""
+          "image": "pancake_world_jajecznica.png"
         },
         {
           "name": "Kawa Latte",
           "price": 15,
           "description": "Duża kawa mleczna",
-          "image": ""
+          "image": "pancake_world_kawa.png"
         }
       ],
       "reviews": [
@@ -640,25 +640,25 @@
       "rating": 4.2,
       "address": "Azjatycka 5",
       "parkingLot": true,
-      "image": "",
+      "image": "viet_nam_bar.png",
       "menu": [
         {
           "name": "Pho Bo",
           "price": 28,
           "description": "Wietnamski rosół z wołowiną",
-          "image": ""
+          "image": "viet_nam_bar_pho.png"
         },
         {
           "name": "Sajgonki",
           "price": 16,
           "description": "3 sztuki z mięsem i warzywami",
-          "image": ""
+          "image": "viet_nam_bar_sajgonki.png"
         },
         {
           "name": "Kurczak 5 smaków",
           "price": 32,
           "description": "Kurczak w aromatycznym sosie z ryżem",
-          "image": ""
+          "image": "viet_nam_bar_kurczak.png"
         }
       ],
       "reviews": [
@@ -672,25 +672,25 @@
       "rating": 4.6,
       "address": "Słoneczna 22",
       "parkingLot": false,
-      "image": "",
+      "image": "tapas_barcelona.png",
       "menu": [
         {
           "name": "Patatas Bravas",
           "price": 22,
           "description": "Ziemniaczki w ostrym sosie",
-          "image": ""
+          "image": "tapas_barcelona_patatas.png"
         },
         {
           "name": "Gambas al Pil Pil",
           "price": 38,
           "description": "Krewetki w czosnku i oliwie",
-          "image": ""
+          "image": "tapas_barcelona_gambas.png"
         },
         {
           "name": "Chorizo w winie",
           "price": 28,
           "description": "Kiełbaski duszone w czerwonym winie",
-          "image": ""
+          "image": "tapas_barcelona_chorizo.png"
         }
       ],
       "reviews": [
@@ -704,25 +704,25 @@
       "rating": 3.8,
       "address": "Krakowska 90",
       "parkingLot": true,
-      "image": "",
+      "image": "bistro_pod_golebiem.png",
       "menu": [
         {
           "name": "Żurek w chlebie",
           "price": 24,
           "description": "Tradycyjny żurek z jajkiem i kiełbasą",
-          "image": ""
+          "image": "bistro_pod_golebiem_zurek.png"
         },
         {
           "name": "Bigos",
           "price": 22,
           "description": "Kapusta kiszona z różnymi mięsami",
-          "image": ""
+          "image": "bistro_pod_golebiem_bigos.png"
         },
         {
           "name": "Placki Ziemniaczane",
           "price": 20,
           "description": "Ze śmietaną i cukrem",
-          "image": ""
+          "image": "bistro_pod_golebiem_placki.png"
         }
       ],
       "reviews": [
@@ -741,25 +741,25 @@
       "rating": 4.8,
       "address": "Nowy Świat 3",
       "parkingLot": false,
-      "image": "",
+      "image": "ramen_shop.png",
       "menu": [
         {
           "name": "Shoyu Ramen",
           "price": 38,
           "description": "Bulion drobiowy, sos sojowy, chashu",
-          "image": ""
+          "image": "ramen_shop_ramen.png"
         },
         {
           "name": "Tantanmen",
           "price": 40,
           "description": "Pikantny bulion sezamowy z mięsem mielonym",
-          "image": ""
+          "image": "ramen_shop_tantan.png"
         },
         {
           "name": "Kimchi",
           "price": 12,
           "description": "Kiszonka koreańska",
-          "image": ""
+          "image": "ramen_shop_kimchi.png"
         }
       ],
       "reviews": [
@@ -773,25 +773,25 @@
       "rating": 4.7,
       "address": "Górska 7",
       "parkingLot": true,
-      "image": "",
+      "image": "himalaya.png",
       "menu": [
         {
           "name": "Momo Kurczak",
           "price": 26,
           "description": "Pierożki nepalskie gotowane na parze",
-          "image": ""
+          "image": "himalaya_momo.png"
         },
         {
           "name": "Dal Bhat",
           "price": 35,
           "description": "Zestaw z soczewicą, ryżem i warzywami",
-          "image": ""
+          "image": "himalaya_dal.png"
         },
         {
           "name": "Mango Lassi",
           "price": 15,
           "description": "Napój jogurtowy",
-          "image": ""
+          "image": "bombay_spice_mango.png"
         }
       ],
       "reviews": [
@@ -809,25 +809,25 @@
       "rating": 4.4,
       "address": "Ciemna 1",
       "parkingLot": false,
-      "image": "",
+      "image": "czarny_burger.png",
       "menu": [
         {
           "name": "Black Mamba",
           "price": 39,
           "description": "Burger w czarnej bułce z sepią",
-          "image": ""
+          "image": "czarny_burger_black.png"
         },
         {
           "name": "Onion Rings",
           "price": 16,
           "description": "Krążki cebulowe w cieście",
-          "image": ""
+          "image": "czarny_burger_onion.png"
         },
         {
           "name": "Brownie",
           "price": 18,
           "description": "Ciasto czekoladowe",
-          "image": ""
+          "image": "czarny_burger_brownie.png"
         }
       ],
       "reviews": [
@@ -845,25 +845,25 @@
       "rating": 4.5,
       "address": "Plac Nowy 4",
       "parkingLot": false,
-      "image": "",
+      "image": "zapiekanki_u_endziora.png",
       "menu": [
         {
           "name": "Zapiekanka z pieczarkami",
           "price": 15,
           "description": "Ser, pieczarki, sos",
-          "image": ""
+          "image": "zapiekanki_u_endziora_pieczarki.png"
         },
         {
           "name": "Zapiekanka z szynką",
           "price": 18,
           "description": "Ser, pieczarki, szynka, szczypiorek",
-          "image": ""
+          "image": "zapiekanki_u_endziora_szynka.png"
         },
         {
           "name": "Zapiekanka na ostro",
           "price": 19,
           "description": "Jalapeño, salami, sos ostry",
-          "image": ""
+          "image": "zapiekanki_u_endziora_ostro.png"
         }
       ],
       "reviews": [
@@ -881,25 +881,25 @@
       "rating": 4.6,
       "address": "Leśna 20",
       "parkingLot": true,
-      "image": "",
+      "image": "gospoda_mysliwska.png",
       "menu": [
         {
           "name": "Gulasz z dzika",
           "price": 48,
           "description": "Podawany z kaszą gryczaną",
-          "image": ""
+          "image": "gospoda_mysliwska_gulasz.png"
         },
         {
           "name": "Pieczeń z jelenia",
           "price": 55,
           "description": "W sosie własnym z kluskami śląskimi",
-          "image": ""
+          "image": "gospoda_mysliwska_pieczen.png"
         },
         {
           "name": "Smalec domowy",
           "price": 15,
           "description": "Z ogórkiem kiszonym i chlebem",
-          "image": ""
+          "image": "gospoda_mysliwska_smalec.png"
         }
       ],
       "reviews": [
@@ -917,25 +917,25 @@
       "rating": 4.3,
       "address": "Kanałowa 5",
       "parkingLot": true,
-      "image": "",
+      "image": "trattoria_venezia.png",
       "menu": [
         {
           "name": "Gnocchi 4 Sery",
           "price": 36,
           "description": "Kluski ziemniaczane w sosie serowym",
-          "image": ""
+          "image": "trattoria_venezia_gnocchi.png"
         },
         {
           "name": "Pizza Prosciutto",
           "price": 34,
           "description": "Szynka parmeńska, rukola, parmezan",
-          "image": ""
+          "image": "trattoria_venezia_pizza.png"
         },
         {
           "name": "Panna Cotta",
           "price": 19,
           "description": "Deser śmietankowy z sosem malinowym",
-          "image": ""
+          "image": "trattoria_venezia_panna.png"
         }
       ],
       "reviews": [
@@ -953,25 +953,25 @@
       "rating": 4.7,
       "address": "Sportowa 8",
       "parkingLot": true,
-      "image": "",
+      "image": "zdrowa_miska.png",
       "menu": [
         {
           "name": "Poke Bowl z łososiem",
           "price": 39,
           "description": "Ryż, łosoś surowy, awokado, mango, edamame",
-          "image": ""
+          "image": "zdrowa_miska_poke.png"
         },
         {
           "name": "Buddha Bowl",
           "price": 35,
           "description": "Komosa ryżowa, pieczone warzywa, tofu",
-          "image": ""
+          "image": "zdrowa_miska_buddha.png"
         },
         {
           "name": "Smoothie Zielone",
           "price": 16,
           "description": "Szpinak, banan, jabłko",
-          "image": ""
+          "image": "zdrowa_miska_smoothie.png"
         }
       ],
       "reviews": [
@@ -985,25 +985,25 @@
       "rating": 4.4,
       "address": "Browarna 2",
       "parkingLot": false,
-      "image": "",
+      "image": "czeska_piwnica.png",
       "menu": [
         {
           "name": "Smażony Ser",
           "price": 32,
           "description": "Z frytkami i sosem tatarskim",
-          "image": ""
+          "image": "czeska_piwnica_ser.png"
         },
         {
           "name": "Gulasz Czeski",
           "price": 38,
           "description": "Z knedlikami bułczanymi",
-          "image": ""
+          "image": "czeska_piwnica_gulasz.png"
         },
         {
           "name": "Utopenci",
           "price": 18,
           "description": "Marynowane kiełbaski",
-          "image": ""
+          "image": "czeska_piwnica_utopenci.png"
         }
       ],
       "reviews": [
@@ -1021,25 +1021,25 @@
       "rating": 4.1,
       "address": "Wiejska 11",
       "parkingLot": true,
-      "image": "",
+      "image": "kura_domowa.png",
       "menu": [
         {
           "name": "Kurczak Pieczony",
           "price": 30,
           "description": "Ćwiartka kurczaka z ziemniakami",
-          "image": ""
+          "image": "kura_domowa_kurczak.png"
         },
         {
           "name": "Wątróbka z cebulką",
           "price": 24,
           "description": "Drobiowa wątróbka z jabłkiem",
-          "image": ""
+          "image": "kura_domowa_watrobka.png"
         },
         {
           "name": "Zupa Pomidorowa",
           "price": 14,
           "description": "Z ryżem lub makaronem",
-          "image": ""
+          "image": "kura_domowa_zupa.png"
         }
       ],
       "reviews": [
@@ -1053,25 +1053,25 @@
       "rating": 4.2,
       "address": "Japońska 1",
       "parkingLot": true,
-      "image": "",
+      "image": "sushi_master.png",
       "menu": [
         {
           "name": "Futomaki Łosoś",
           "price": 32,
           "description": "Pieczony łosoś, serek, ogórek",
-          "image": ""
+          "image": "sushi_master_futomaki.png"
         },
         {
           "name": "Hosomaki Ogórek",
           "price": 16,
           "description": "Małe rolki z ogórkiem",
-          "image": ""
+          "image": "sushi_master_hosomaki.png"
         },
         {
           "name": "Zestaw Party",
           "price": 120,
           "description": "40 kawałków dla 3 osób",
-          "image": ""
+          "image": "sushi_master_party.png"
         }
       ],
       "reviews": [
@@ -1089,25 +1089,25 @@
       "rating": 4.8,
       "address": "Piekarska 4",
       "parkingLot": false,
-      "image": "",
+      "image": "la_baguette.png",
       "menu": [
         {
           "name": "Bagietka z Szynką",
           "price": 18,
           "description": "Świeża bagietka, masło, szynka, pomidor",
-          "image": ""
+          "image": "la_baguette_bagietka.png"
         },
         {
           "name": "Croissant z czekoladą",
           "price": 12,
           "description": "Maślany rogalik z nadzieniem",
-          "image": ""
+          "image": "la_baguette_croissant.png"
         },
         {
           "name": "Kawa Espresso",
           "price": 9,
           "description": "Mocna czarna kawa",
-          "image": ""
+          "image": "la_baguette_kawa.png"
         }
       ],
       "reviews": [
@@ -1121,25 +1121,25 @@
       "rating": 4.3,
       "address": "Chili 6",
       "parkingLot": true,
-      "image": "",
+      "image": "ostra_kuchnia.png",
       "menu": [
         {
           "name": "Chili con Carne",
           "price": 34,
           "description": "Mielona wołowina, fasola, pomidory",
-          "image": ""
+          "image": "ostra_kuchnia_chili.png"
         },
         {
           "name": "Fajitas Kurczak",
           "price": 38,
           "description": "Skwiercząca patelnia z warzywami i mięsem",
-          "image": ""
+          "image": "ostra_kuchnia_fajitas.png"
         },
         {
           "name": "Churros",
           "price": 18,
           "description": "Ciastka smażone z sosem czekoladowym",
-          "image": ""
+          "image": "ostra_kuchnia_churros.png"
         }
       ],
       "reviews": [
@@ -1157,25 +1157,25 @@
       "rating": 4.5,
       "address": "Robotnicza 1",
       "parkingLot": false,
-      "image": "",
+      "image": "bar_mleczny_prl.png",
       "menu": [
         {
           "name": "Leniwe",
           "price": 16,
           "description": "Kluski z serem, bułka tarta, cukier",
-          "image": ""
+          "image": "bar_mleczny_prl_leniwe.png"
         },
         {
           "name": "Zupa Ogórkowa",
           "price": 8,
           "description": "Zupa na żeberkach",
-          "image": ""
+          "image": "bar_mleczny_prl_zupa.png"
         },
         {
           "name": "Kotlet Mielony",
           "price": 20,
           "description": "Z ziemniakami i buraczkami",
-          "image": ""
+          "image": "bar_mleczny_prl_kotlet.png"
         }
       ],
       "reviews": [
@@ -1193,25 +1193,25 @@
       "rating": 4.0,
       "address": "Smocza 9",
       "parkingLot": true,
-      "image": "",
+      "image": "zloty_smok.png",
       "menu": [
         {
           "name": "Kurczak w cieście",
           "price": 28,
           "description": "Kawałki kurczaka w cieście z ryżem",
-          "image": ""
+          "image": "zloty_smok_kurczak.png"
         },
         {
           "name": "Kaczka po pekińsku",
           "price": 55,
           "description": "Chrupiąca kaczka z plackami",
-          "image": ""
+          "image": "zloty_smok_kaczka.png"
         },
         {
           "name": "Ryż smażony",
           "price": 22,
           "description": "Ryż z jajkiem i warzywami",
-          "image": ""
+          "image": "zloty_smok_ryz.png"
         }
       ],
       "reviews": [
@@ -1226,25 +1226,25 @@
       "rating": 4.7,
       "address": "Winna 12",
       "parkingLot": false,
-      "image": "",
+      "image": "winiarnia_u_marka.png",
       "menu": [
         {
           "name": "Deska Serów",
           "price": 60,
           "description": "Wybór serów francuskich i włoskich",
-          "image": ""
+          "image": "winiarnia_u_marka_sery.png"
         },
         {
           "name": "Oliwki Marynowane",
           "price": 15,
           "description": "Mix oliwek z ziołami",
-          "image": ""
+          "image": "winiarnia_u_marka_oliwki.png"
         },
         {
           "name": "Bruschetta",
           "price": 20,
           "description": "Grzanki z pomidorami i bazylią",
-          "image": ""
+          "image": "winiarnia_u_marka_bruschetta.png"
         }
       ],
       "reviews": [
@@ -1262,25 +1262,25 @@
       "rating": 4.4,
       "address": "Kebabowa 3",
       "parkingLot": false,
-      "image": "",
+      "image": "falafel_king.png",
       "menu": [
         {
           "name": "Pita Falafel",
           "price": 20,
           "description": "Kulki z ciecierzycy w chlebie pita",
-          "image": ""
+          "image": "falafel_king_pita.png"
         },
         {
           "name": "Talerz Arabski",
           "price": 35,
           "description": "Hummus, babaganoush, falafel, sałatka",
-          "image": ""
+          "image": "falafel_king_talerz.png"
         },
         {
           "name": "Baklava",
           "price": 10,
           "description": "Słodkie ciastko z orzechami",
-          "image": ""
+          "image": "falafel_king_baklava.png"
         }
       ],
       "reviews": [
@@ -1298,25 +1298,25 @@
       "rating": 4.6,
       "address": "Jeziorna 5",
       "parkingLot": true,
-      "image": "",
+      "image": "grube_ryby.png",
       "menu": [
         {
           "name": "Pstrąg z pieca",
           "price": 40,
           "description": "Cały pstrąg z masłem czosnkowym",
-          "image": ""
+          "image": "grube_ryby_pstrag.png"
         },
         {
           "name": "Sandacz w sosie koperkowym",
           "price": 48,
           "description": "Filet z sandacza z ziemniakami",
-          "image": ""
+          "image": "grube_ryby_sandacz.png"
         },
         {
           "name": "Zupa Rakowa",
           "price": 28,
           "description": "Kremowa zupa z szyjkami rakowymi",
-          "image": ""
+          "image": "grube_ryby_rakowa.png"
         }
       ],
       "reviews": [
@@ -1330,25 +1330,25 @@
       "rating": 4.8,
       "address": "Południowa 2",
       "parkingLot": true,
-      "image": "",
+      "image": "pizzeria_napoli.png",
       "menu": [
         {
           "name": "Marinara",
           "price": 28,
           "description": "Pomidory San Marzano, czosnek, oregano",
-          "image": ""
+          "image": "pizzeria_napoli_marinara.png"
         },
         {
           "name": "Capricciosa",
           "price": 36,
           "description": "Szynka, pieczarki, karczochy, oliwki",
-          "image": ""
+          "image": "pizzeria_napoli_capricciosa.png"
         },
         {
           "name": "Calzone",
           "price": 38,
           "description": "Pizza pieróg z salami i ricottą",
-          "image": ""
+          "image": "pizzeria_napoli_calzone.png"
         }
       ],
       "reviews": [
@@ -1366,25 +1366,25 @@
       "rating": 4.5,
       "address": "Chorwacka 7",
       "parkingLot": true,
-      "image": "",
+      "image": "balkan_grill.png",
       "menu": [
         {
           "name": "Cevapcici",
           "price": 34,
           "description": "Wałeczki mięsne z grilla z cebulą",
-          "image": ""
+          "image": "balkan_grill_ceva.png"
         },
         {
           "name": "Pleskavica",
           "price": 36,
           "description": "Kotlet bałkański z serem w środku",
-          "image": ""
+          "image": "balkan_grill_pleska.png"
         },
         {
           "name": "Szopska Sałatka",
           "price": 22,
           "description": "Pomidor, ogórek, papryka, ser solankowy",
-          "image": ""
+          "image": "balkan_grill_szopska.png"
         }
       ],
       "reviews": [
@@ -1402,25 +1402,25 @@
       "rating": 4.9,
       "address": "Słodka 1",
       "parkingLot": false,
-      "image": "",
+      "image": "czekolodziarnia.png",
       "menu": [
         {
           "name": "Gorąca Czekolada",
           "price": 18,
           "description": "Gęsta czekolada z bitą śmietaną",
-          "image": ""
+          "image": "czekolodziarnia_goraca.png"
         },
         {
           "name": "Fondue Czekoladowe",
           "price": 45,
           "description": "Dla 2 osób, owoce do maczania",
-          "image": ""
+          "image": "czekolodziarnia_fondue.png"
         },
         {
           "name": "Tort Sachera",
           "price": 20,
           "description": "Ciasto czekoladowe z konfiturą morelową",
-          "image": ""
+          "image": "czekolodziarnia_tort.png"
         }
       ],
       "reviews": [
@@ -1438,25 +1438,25 @@
       "rating": 4.3,
       "address": "Zielona 15",
       "parkingLot": true,
-      "image": "",
+      "image": "wege_burger.png",
       "menu": [
         {
           "name": "Burger z Kaszy Jaglanej",
           "price": 28,
           "description": "Kotlet jaglany, pomidor, rukola",
-          "image": ""
+          "image": "wege_burger_burger.png"
         },
         {
           "name": "Frytki z Batatów",
           "price": 16,
           "description": "Słodkie frytki z sosem wegańskim",
-          "image": ""
+          "image": "wege_burger_frytki.png"
         },
         {
           "name": "Lemoniada",
           "price": 12,
           "description": "Domowa lemoniada cytrynowa",
-          "image": ""
+          "image": "wege_burger_lemoniada.png"
         }
       ],
       "reviews": [
@@ -1474,25 +1474,25 @@
       "rating": 4.8,
       "address": "Zamkowa 1",
       "parkingLot": true,
-      "image": "",
+      "image": "restauracja_zamkowa.png",
       "menu": [
         {
           "name": "Tatar z polędwicy",
           "price": 55,
           "description": "Wołowina, żółtko, pikle, grzyby",
-          "image": ""
+          "image": "restauracja_zamkowa_tatar.png"
         },
         {
           "name": "Kaczka Confit",
           "price": 68,
           "description": "Udko kaczki z modrą kapustą",
-          "image": ""
+          "image": "restauracja_zamkowa_kaczka.png"
         },
         {
           "name": "Beza Pavlova",
           "price": 28,
           "description": "Beza z owocami i mascarpone",
-          "image": ""
+          "image": "restauracja_zamkowa_beza.png"
         }
       ],
       "reviews": [
@@ -1510,25 +1510,25 @@
       "rating": 4.4,
       "address": "Zupna 4",
       "parkingLot": false,
-      "image": "",
+      "image": "kociolek.png",
       "menu": [
         {
           "name": "Krem z dyni",
           "price": 16,
           "description": "Z pestkami dyni i oliwą",
-          "image": ""
+          "image": "kociolek_krem.png"
         },
         {
           "name": "Grochówka",
           "price": 18,
           "description": "Gęsta zupa z boczkiem",
-          "image": ""
+          "image": "kociolek_grochowka.png"
         },
         {
           "name": "Chłodnik Litewski",
           "price": 17,
           "description": "Zupa na zimno z buraków i kefiru",
-          "image": ""
+          "image": "kociolek_chlodnik.png"
         }
       ],
       "reviews": [
@@ -1546,25 +1546,25 @@
       "rating": 4.2,
       "address": "Eko 9",
       "parkingLot": true,
-      "image": "",
+      "image": "bio_bistro.png",
       "menu": [
         {
           "name": "Sałatka z komosą",
           "price": 30,
           "description": "Quinoa, warzywa, dressing cytrynowy",
-          "image": ""
+          "image": "bio_bistro_salatka.png"
         },
         {
           "name": "Wrap pełnoziarnisty",
           "price": 26,
           "description": "Kurczak zagrodowy, warzywa",
-          "image": ""
+          "image": "bio_bistro_wrap.png"
         },
         {
           "name": "Sok Wyciskany",
           "price": 18,
           "description": "Marchew, jabłko, seler",
-          "image": ""
+          "image": "bio_bistro_sok.png"
         }
       ],
       "reviews": [
@@ -1582,25 +1582,25 @@
       "rating": 3.7,
       "address": "Osiedlowa 10",
       "parkingLot": true,
-      "image": "",
+      "image": "pizza_na_wypasie.png",
       "menu": [
         {
           "name": "Pizza Kebab",
           "price": 38,
           "description": "Mięso kebab, cebula, sos czosnkowy",
-          "image": ""
+          "image": "pizza_na_wypasie_kebab.png"
         },
         {
           "name": "Pizza Farmerska",
           "price": 40,
           "description": "Boczek, kiełbasa, cebula, kukurydza",
-          "image": ""
+          "image": "pizza_na_wypasie_farmerska.png"
         },
         {
           "name": "Sosy do pizzy",
           "price": 5,
           "description": "Czosnkowy lub pomidorowy",
-          "image": ""
+          "image": "pizza_na_wypasie_sos.png"
         }
       ],
       "reviews": [
@@ -1619,25 +1619,25 @@
       "rating": 4.4,
       "address": "Róg 2",
       "parkingLot": false,
-      "image": "",
+      "image": "sushi_corner.png",
       "menu": [
         {
           "name": "Lunch Box",
           "price": 45,
           "description": "Zestaw 12 kawałków sushi z zupą",
-          "image": ""
+          "image": "sushi_corner_box.png"
         },
         {
           "name": "Tempura Krewetki",
           "price": 30,
           "description": "4 krewetki w tempurze",
-          "image": ""
+          "image": "sushi_corner_tempura.png"
         },
         {
           "name": "Herbata Jaśminowa",
           "price": 10,
           "description": "Dzbanek herbaty",
-          "image": ""
+          "image": "sushi_corner_herbata.png"
         }
       ],
       "reviews": [
@@ -1655,25 +1655,25 @@
       "rating": 4.6,
       "address": "Wschodnia 8",
       "parkingLot": true,
-      "image": "",
+      "image": "gruzinska_chata.png",
       "menu": [
         {
           "name": "Chaczapuri Megrelskie",
           "price": 36,
           "description": "Placek z podwójnym serem",
-          "image": ""
+          "image": "gruzinska_chata_chacza.png"
         },
         {
           "name": "Szaszłyk wieprzowy",
           "price": 38,
           "description": "Marynowane mięso z grilla",
-          "image": ""
+          "image": "gruzinska_chata_szaszlyk.png"
         },
         {
           "name": "Lemoniada Gruzińska",
           "price": 14,
           "description": "Smak gruszkowy lub estragonowy",
-          "image": ""
+          "image": "gruzinska_chata_lemoniada.png"
         }
       ],
       "reviews": [
@@ -1691,25 +1691,25 @@
       "rating": 4.0,
       "address": "Mała 3",
       "parkingLot": false,
-      "image": "",
+      "image": "bistro_u_joli.png",
       "menu": [
         {
           "name": "Krokiety z barszczem",
           "price": 22,
           "description": "Krokiety z kapustą i grzybami",
-          "image": ""
+          "image": "bistro_u_joli_krokiety.png"
         },
         {
           "name": "Gołąbki",
           "price": 24,
           "description": "W sosie pomidorowym z ziemniakami",
-          "image": ""
+          "image": "bistro_u_joli_golabki.png"
         },
         {
           "name": "Naleśniki z serem",
           "price": 18,
           "description": "Na słodko ze śmietaną",
-          "image": ""
+          "image": "bistro_u_joli_nalesniki.png"
         }
       ],
       "reviews": [
@@ -1727,25 +1727,25 @@
       "rating": 4.5,
       "address": "Zachodnia 6",
       "parkingLot": true,
-      "image": "",
+      "image": "texmex_grill.png",
       "menu": [
         {
           "name": "Burrito Wołowe",
           "price": 32,
           "description": "Ryż, fasola, wołowina, salsa",
-          "image": ""
+          "image": "texmex_grill_burrito.png"
         },
         {
           "name": "Tacos Krewetka",
           "price": 34,
           "description": "Krewetki, mango salsa, limonka",
-          "image": ""
+          "image": "texmex_grill_tacos.png"
         },
         {
           "name": "Guacamole",
           "price": 24,
           "description": "Pasta z awokado z nachosami",
-          "image": ""
+          "image": "texmex_grill_guaca.png"
         }
       ],
       "reviews": [
